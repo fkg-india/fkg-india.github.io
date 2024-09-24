@@ -1,0 +1,7 @@
+### Step 2: Create the `_config.yml`
+This file is required by GitHub Pages to use Jekyll (the static site generator GitHub uses by default).
+
+```yaml
+# Minimal Jekyll config for GitHub Pages
+theme: minima
+markdown: kramdown
