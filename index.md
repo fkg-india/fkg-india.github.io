@@ -1,17 +1,19 @@
 ---
 layout: default
-title: My Minimal Webpage
+title: Welcome   
 ---
 
-# Welcome to My Webpage
+# Welcome to Our Food Computing Group
 
-This is a simple webpage served from a Markdown file.
+Explore our research, meet our team, and learn more about our mission at Ashoka University.
 
 ## Section 1
 Markdown allows you to write content with **bold**, *italic*, and [links](https://example.com).
 
 ### Subheading
 You can also add code snippets:
+
+Here is some inline code: `print("Hello, World!")`.
 
 ```python
 print("Hello, World!")
