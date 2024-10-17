@@ -15,5 +15,3 @@ gem "kramdown", ">= 1.17.0"
 
 gem 'webrick', '~> 1.7'
 gem 'csv'
-
-gem "minimal-mistakes-jekyll"
