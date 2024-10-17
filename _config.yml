@@ -1,5 +1,6 @@
 # Minimal Jekyll config for GitHub Pages
-theme: minima  # GitHub Pages' default theme
+#theme: minima  # GitHub Pages' default theme
+theme: minimal-mistakes-jekyll
 markdown: kramdown
 
 # Set the base URL for GitHub Pages (optional, replace with your repository name if necessary)
@@ -7,10 +8,27 @@ markdown: kramdown
 
 # Site settings (optional, but useful)
 title: Food Computing Group
+subtitle: "Version 1.5"
+site.description: 
 description: Welcome to our Food Computing Group
 baseurl: ""
 url: "http://fkg-india.github.io" # Replace with your website URL
 author: Your Name
+logo: "/assets/images/logo/ashoka_uni.png"
+#masthead_title: "Custom Title"
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/fkg-india"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/ashokauniv"
+    - label: "Ashoka University"
+      icon: ""  # Leave this empty since we're using an image
+      url: "https://www.ashoka.edu.in/"
+      image: "/assets/images/logo/ashoka_uni.png"  # Custom logo path
+
 
 markdown: kramdown
 

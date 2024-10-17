@@ -1,9 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-24T22:22:13+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Food Computing Group</title><subtitle>Welcome to our Food Computing Group</subtitle><author><name>Your Name</name></author><entry><title type="html">Welcome to Our Food Computing Group</title><link href="http://localhost:4000/2024/09/24/welcome-to-our-group.html" rel="alternate" type="text/html" title="Welcome to Our Food Computing Group" /><published>2024-09-24T00:00:00+05:30</published><updated>2024-09-24T00:00:00+05:30</updated><id>http://localhost:4000/2024/09/24/welcome-to-our-group</id><content type="html" xml:base="http://localhost:4000/2024/09/24/welcome-to-our-group.html">&lt;h1 id=&quot;welcome&quot;&gt;Welcome&lt;/h1&gt;
-
-&lt;p&gt;Welcome to the Food Computing Group at Ashoka University! We are dedicated to exploring the intersection of food and technology through innovative research.&lt;/p&gt;
-
-&lt;h2 id=&quot;our-mission&quot;&gt;Our Mission&lt;/h2&gt;
-
-&lt;p&gt;Our mission is to advance knowledge in food computing, with a focus on sustainability, health, and social impact.&lt;/p&gt;
-
-&lt;p&gt;Join us as we explore exciting research opportunities!&lt;/p&gt;</content><author><name>Your Name</name></author><summary type="html">Welcome</summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-10-17T20:19:03+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Food Computing Group</title><subtitle>Welcome to our Food Computing Group</subtitle><author><name>Your Name</name></author></feed>

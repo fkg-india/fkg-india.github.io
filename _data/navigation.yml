@@ -1,0 +1,15 @@
+#links to masthead 
+main:
+  - title: "Home"
+    url: /
+  - title: "People"
+    url: /people/
+  - title: "Research"
+    url: /research/
+  - title: "FKG.in"
+    url: #/fkgin/
+  - title: "Contact Us"
+    url: #/contactus/
+  
+  
+  
