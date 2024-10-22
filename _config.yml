@@ -1,52 +1,108 @@
-# Minimal Jekyll config for GitHub Pages
-#theme: minima  # GitHub Pages' default theme
-theme: minimal-mistakes-jekyll
-markdown: kramdown
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
+
+# Theme Settings
+#
+# Review documentation to determine if you should use `theme` or `remote_theme`
+# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
+
+# theme                   : "minimal-mistakes-jekyll"
+remote_theme              : "mmistakes/minimal-mistakes"
+light_theme               : "default"
+dark_theme                : "dark"
+minimal_mistakes_skin     : "default" #, "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Set the base URL for GitHub Pages (optional, replace with your repository name if necessary)
 # baseurl: "/your-repo-name"
 
 # Site settings (optional, but useful)
-title: Food Computing Group
-subtitle: "Version 1.5"
-site.description: 
-description: Welcome to our Food Computing Group
-baseurl: ""
-url: "http://fkg-india.github.io" # Replace with your website URL
-author: Your Name
-logo: "/assets/images/logo/ashoka_uni.png"
-#masthead_title: "Custom Title"
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/fkg-india"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/ashokauniv"
-    - label: "Ashoka University"
-      icon: ""  # Leave this empty since we're using an image
-      url: "https://www.ashoka.edu.in/"
-      image: "/assets/images/logo/ashoka_uni.png"  # Custom logo path
+locale                    : "en-US"
+title                     : "Food Computing Group"
+subtitle                  : "Version 1.5"
+title_separator           : "-"
+description               : "Welcome to the Food Computing Group at Ashoka University, where we explore interdisciplinary research at the intersection of food, computing, and data."
+url                       : "https://fkg-india.github.io/" # Replace with your website URL
+baseurl                   : ""
+repository                : "fkg-india/fkg-india.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+author                    : "Food Computing Group"
+logo                      : "/assets/images/logo/ashoka_uni_light.png"
+# teaser                  : ""
+masthead_title            : "" # overrides the website title displayed in the masthead, use " " for no title
 
-
-markdown: kramdown
-
-# Exclude these files and folders from the site (optional)
+# Reading Files
+include:
+  - .htaccess
+  - _pages
 exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
   - Gemfile
   - Gemfile.lock
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README
+  - tmp
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md,html"
 
-# Enable pagination (optional, needed if you're using blog posts or pagination)
-plugins:
-  - jekyll-paginate
 
 # Ensure GitHub Pages compatible gems are used
 plugins:  
   - jekyll-feed  
-  - jekyll-paginate  
+  - jekyll-paginate  # Enable pagination (optional, needed if you're using blog posts or pagination)
+  - jekyll-sitemap
   - github-pages
+  - jekyll-include-cache
+
+paginate: 5  # Number of posts to show per page
+paginate_path: '/page:num/'
 
 
+# Collections for posts
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:year/:month/:day/:title.html
+
+# Additional settings
+defaults:
+  - scope:
+      path: "" # empty means all files
+      type: "posts"
+    values:
+      layout: "posts"
+      author_profile: false
 
 # Any other configurations or plugins you want to add (optional)
+incremental: true
+
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: nested  # Adjust based on your preferred output style (compressed/nested)

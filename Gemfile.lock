@@ -41,8 +41,11 @@ GEM
       logger
     faraday-net_http (3.3.0)
       net-http
+    faraday-retry (2.2.1)
+      faraday (~> 2.0)
     ffi (1.17.0-arm64-darwin)
     ffi (1.17.0-x64-mingw-ucrt)
+    fiddle (1.1.2)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
     github-pages (228)
@@ -271,6 +274,7 @@ GEM
       concurrent-ruby (~> 1.0)
     unicode-display_width (1.8.0)
     uri (0.13.1)
+    wdm (0.2.0)
     webrick (1.8.2)
 
 PLATFORMS
@@ -279,10 +283,14 @@ PLATFORMS
 
 DEPENDENCIES
   csv
+  faraday-retry
+  fiddle
   github-pages (~> 228)
   jekyll (~> 3.9)
+  jekyll-include-cache
   kramdown (>= 1.17.0)
   minimal-mistakes-jekyll
+  wdm (>= 0.1.0)
   webrick (~> 1.7)
 
 RUBY VERSION
