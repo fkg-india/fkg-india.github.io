@@ -1,0 +1,72 @@
+<!-- Dark Mode Script -->
+<script>
+  // Check if 'darkMode' is already defined
+  if (typeof darkMode === 'undefined') {
+    let darkMode = localStorage.getItem("darkMode");
+  }
+
+  function updateTheme() {
+      const logo = document.getElementById('nav-bar-logo');
+      const toggleLink = document.getElementById('dark-toggle-link');
+      const bigHomeLogo = document.getElementById('big-home-logo');
+      const footerAshokaLogo = document.getElementById('footer-ashoka-logo');
+      const darkToggle = document.getElementById('dark-toggle');
+
+      if (darkMode === "enabled") {
+          logo.src = logo.src.replace('light', 'dark');
+          toggleLink.href = toggleLink.href.replace('light', 'dark');
+          if (bigHomeLogo) {
+              bigHomeLogo.src = bigHomeLogo.src.replace('light', 'dark');
+          }
+          if (footerAshokaLogo) {
+              footerAshokaLogo.src = footerAshokaLogo.src.replace('light', 'dark');
+          }
+          if (darkToggle) {
+              darkToggle.classList.add('fa-toggle-on');
+              darkToggle.classList.remove('fa-toggle-off');
+          }
+      } else {
+          logo.src = logo.src.replace('dark', 'light');
+          toggleLink.href = toggleLink.href.replace('dark', 'light');
+          if (bigHomeLogo) {
+              bigHomeLogo.src = bigHomeLogo.src.replace('dark', 'light');
+          }
+          if (footerAshokaLogo) {
+              footerAshokaLogo.src = footerAshokaLogo.src.replace('dark', 'light');
+          }
+          if (darkToggle) {
+              darkToggle.classList.add('fa-toggle-off');
+              darkToggle.classList.remove('fa-toggle-on');
+          }
+      }
+  }
+
+  updateTheme();
+
+</script>
+
+{% if site.footer_scripts %}
+{% for script in site.footer_scripts %}
+  {% if script contains "://" %}
+    {% capture script_path %}{{ script }}{% endcapture %}
+  {% else %}
+    {% capture script_path %}{{ script | relative_url }}{% endcapture %}
+  {% endif %}
+  <script src="{{ script_path }}"></script>
+{% endfor %}
+{% else %}
+<script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
+<script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+{% endif %}
+
+{% if site.after_footer_scripts %}
+{% for script in site.after_footer_scripts %}
+  {% if script contains "://" %}
+    {% capture script_path %}{{ script }}{% endcapture %}
+  {% else %}
+    {% capture script_path %}{{ script | relative_url }}{% endcapture %}
+  {% endif %}
+  <script src="{{ script_path }}"></script>
+{% endfor %}
+{% endif %}

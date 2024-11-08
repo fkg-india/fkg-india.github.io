@@ -1,28 +1,28 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.26.2 by Michael Rose
-  Copyright 2013-2024 Michael Rose - mademistakes.com | @mmistakes
+  Minimal Mistakes Jekyll Theme 4.18.1 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
-
 <html lang="en" class="no-js">
+  <script src="/assets/js/skinToggle.js"></script>
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Food Computing Group - Food Computing Group</title>
-<meta name="description" content="Welcome to our Food Computing Group">
+<!-- begin _includes/seo.html --><title>Food Computing Lab - Food Computing Group</title>
+<meta name="description" content="Welcome to the Food Computing Group at Ashoka University, where we explore interdisciplinary research at the intersection of food, computing, and data. ">
 
 
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Food Computing Group">
-<meta property="og:title" content="Food Computing Group">
+<meta property="og:title" content="Food Computing Lab">
 <meta property="og:url" content="http://localhost:4000/">
 
 
-  <meta property="og:description" content="Welcome to our Food Computing Group">
+  <meta property="og:description" content="Welcome to the Food Computing Group at Ashoka University, where we explore interdisciplinary research at the intersection of food, computing, and data. ">
 
 
 
@@ -40,18 +40,16 @@
 
 
 
-
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-    "name": null,
-    "url": "http://localhost:4000/"
-}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "http://localhost:4000/"
+    
+  }
 </script>
-
-
-
 
 
 
@@ -61,19 +59,66 @@
 <!-- end _includes/seo.html -->
 
 
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Food Computing Group Feed">
 
-  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Food Computing Group Feed">
+<!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<script type="text/javascript">
+<script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-  
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="/assets/css/main.css">
-<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+<link id="dark-toggle-link" rel="stylesheet" href="/assets/css/light.css">
+
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+  spano {
+    font-family: 'Cinzel Decorative';font-weight: 400;
+}
+
+spani {
+    font-family: 'Cinzel Decorative';font-weight: 700;
+}
+/* .containerimage > img {
+  height: 150px;
+  width: auto;
+  justify-content: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+.columncus > img {
+  float: left;
+  width: 20%;
+  height: 150px;
+  padding: 5px;
+} */
+
+/* Clearfix (clear floats) */
+/* .rowcus {
+  display: flex;
+} */
+</style>
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
 
 
 
@@ -85,8 +130,9 @@
 
   </head>
 
-  <body class="layout--single">
+  <body class="layout--single wide">
     <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
     <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
@@ -94,49 +140,37 @@
   </ul>
 </nav>
 
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
     
 
-<div class="masthead">
+<div class="masthead sticky">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-          <a class="site-logo" href="/"><img src="/assets/images/logo/ashoka_uni.png" alt="Food Computing Group"></a>
+          <a class="site-logo" href="/"><img id="nav-bar-logo" src="/assets/images/logo/ashoka_uni_light.png" alt=""></a>
         
-        <a class="site-title" href="/">
+       <!--- <a class="site-title" href="/">
           Food Computing Group
           <span class="site-subtitle">Version 1.5</span>
-        </a>
+        </a> --->
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a
-                href="/"
-                
-                
-              >Home</a>
+              <a href="/index/" >Home</a>
             </li><li class="masthead__menu-item">
-              <a
-                href="/people/"
-                
-                
-              >People</a>
+              <a href="/about/" >About</a>
             </li><li class="masthead__menu-item">
-              <a
-                href="/research/"
-                
-                
-              >Research</a>
+              <a href="/research/" >Research</a>
             </li><li class="masthead__menu-item">
-              <a
-                href=""
-                
-                
-              >FKG.in</a>
+              <a href="/contributions/" >Contributions</a>
             </li><li class="masthead__menu-item">
-              <a
-                href=""
-                
-                
-              >Contact Us</a>
+              <a href="/people/" >People</a>
+            </li><li class="masthead__menu-item">
+              <a href="/connect/" >Connect</a>
+            </li><li class="masthead__menu-item">
+              <a href="/fkg-in/" >FKG.in</a>
             </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
@@ -155,14 +189,11 @@
 
 
 
-
-
 <div id="main" role="main">
-  
-
+  <!--  -->
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    
+    <meta itemprop="headline" content="Food Computing Lab">
     
     
     
@@ -170,38 +201,112 @@
     <div class="page__inner-wrap">
       
         <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Food Computing Lab
+</h1>
           
-          
-
-
         </header>
       
 
       <section class="page__content" itemprop="text">
         
-        <h1 id="welcome-to-food-computing">Welcome to Food Computing</h1>
+        <div class="d-flex align-items-center mb-4"> <!-- Flex container for logo and heading -->
+      
 
-<p>In the vibrant landscape of Indian cuisine, where diversity and complexity collide, the construction of a Food Knowledge Graph (FKG.in) represents a pioneering effort to harness and structure the immense variety of culinary data. The initiative aims to address significant gaps in the availability and organization of food-related information by focusing on the rich tapestry of Indian culinary traditions.</p>
+<div class="feature__wrapper">
 
-<p>The FKG.in project is centered on building a comprehensive vocabulary and ontology tailored to Indian food. This involves not just the basic categorization of food items but extends to mapping out intricate relationships between different foods, their preparation methods, regional variations, and cultural significance.</p>
+  
 
-<p>Through advanced Natural Language Processing (NLP) and the use of Large Language Models (LLM), the project populates a vast repository of Indian recipes. This ambitious endeavor aims to extract and ingest anywhere from 50,000 to 100,000 recipes, forming the backbone of a robust knowledge graph. Additionally, the FKG.in provides a SPARQL Query Interface, facilitating sophisticated searches and enabling users to navigate this complex dataset efficiently.
-Explore our research, meet our team, and learn more about our mission at Ashoka University.</p>
+    
 
-<h4 id="challenges-in-designing-the-indian-food-ontology">Challenges in Designing the Indian Food Ontology</h4>
-<p>We target the following challenges in designing an ontology for Indian food, which reflect the broader complexities of Food Computing:</p>
+    <div class="feature__item--left">
+      <div class="archive__item">
+        
 
-<h5 id="sub-comprehensive-vocabulary-development">Sub-Comprehensive Vocabulary Development</h5>
-<p>The absence of a universally recognized and comprehensive vocabulary for Indian cuisine means starting from scratch is necessary. Indian food traditions are driven by social customs and regional practices, leading to a plethora of unique dishes and ingredients that are often poorly documented.</p>
+        <div class="archive__item-body">
+          
 
-<h5 id="multiplicity-and-multilinguality">Multiplicity and Multilinguality</h5>
-<p>Many Indian recipes share ingredients but differ significantly in their preparation, reflecting regional tastes and methods. Additionally, the same ingredient or dish may be known by various names in different languages, adding layers of complexity to the data structuring process.</p>
+          
+            <div class="archive__item-excerpt">
+              <p>Welcome fellow researchers to the <strong>Food Computing Lab</strong>! We aim to deepen our knowledge of food and its intricate connections to <em>nutrition, cooking, recipes, dietary practices, well-being, society, and environment</em> - particularly in the <strong>Indian context</strong>. Our work emphasizes the importance of understanding food not only as a source of sustenance and enjoyment, but also as a vital component of a healthy and sustainable lifestyle. Using novel AI-driven computational technologies, we mine, curate and analyze data and relationships within food systems to uncover insights that enable <em>healthier eating habits, recipe generation, food recommendation, knowledge discovery, and informed decision-making</em>. To know more about our work, please browse our <a href="/research/">research</a>.</p>
 
-<h5 id="food-homonyms-and-measurement-standards">Food Homonyms and Measurement Standards</h5>
-<p>Common terms can refer to multiple, distinct items or concepts within the culinary domain, complicating data categorization. Moreover, traditional Indian cooking often eschews precise measurements in favor of qualitative descriptors, making standardization challenging.</p>
+            </div>
+          
 
-<h5 id="sociocultural-associations">Sociocultural Associations</h5>
-<p>Food items in India are often deeply intertwined with religious, cultural, and regional festivities, influencing how foods are perceived and consumed. Certain dishes are almost exclusively prepared during specific festivals or seasons, adding another dimension to how food data must be organized.</p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>
+
+</div>
+
+<blockquote>
+  <p style="font-size: 0.9em;">We are interested in advancing the state-of-the-art of <b>FOOD FACTS</b>: <br /> <b>F</b>ood <b>O</b>ntologies and <b>O</b>rganized <b>D</b>ata <b>F</b>or <b>A</b>I-driven <b>C</b>omputational <b>T</b>echnologies and <b>S</b>ustainability</p>
+</blockquote>
+
+<blockquote>
+  <p style="font-size: 0.9em;"><b>Institutional Home:</b>: Ashoka University, Sonipat, Haryana (India)</p>
+</blockquote>
+
+<blockquote>
+  <p style="font-size: 0.9em;"><b>Key Problem Statement</b>: To address the prevalence and increasing threat of diet-related diseases like obesity, hypertension, and diabetes in India, it has become necessary to build frameworks for precisely tracking the dietary nutrition of food consumption among Indians. The recently proposed <a href="https://www.iso.org/standard/83497.html">Personalized Health Navigators (PHN)</a> and <a href="https://www.iso.org/committee/54960.html">Personalized Digital Health (PDH)</a> can provide an effective and efficient solution to these problems, provided adequate knowledge about Indian food and nutrition is digitally represented, available, and accessible alongside easy mechanisms to capture what people are eating regularly. We intend to create these platforms including but not limited to a comprehensive, granular, and dynamic database of Indian food at scale, an accompanying intelligent knowledge-based system for reasoning, and a recommendation system for personalized health navigation. And this is only the beginning!</p>
+</blockquote>
+
+<hr />
+<h3 id="news">News</h3>
+<div class="notice--success">
+  <h4>MADiMa [Dec. 2024]</h4>
+  <p> 1 <a href="/contributions/#2-enhancing-fkgin-automating-indian-food-composition-analysis-madima-2024" class="alert-link">paper on <b>Enhancing FKG.in: automating Indian food composition analysis</b></a> accepted for poster, presentation and subsequent publication at the 9th International Workshop on Multimedia Assisted Dietary Management (MADiMa) in conjunction with the 27th International Conference on Pattern Recognition (ICPR 2024), Kolkata (IN). Congratulations to the team!</p>
+</div>
+<div class="notice--success">
+  <h4>EMNLP [Nov. 2024]</h4>
+  <p> 1 <a href="/contributions/#1-deciphering-psycho-social-effects-of-eating-disorder--analysis-of-reddit-posts-using-large-language-modelllms-and-topic-modeling-emnlp-2024" class="alert-link">paper on <b>Deciphering psycho-social effects of Eating Disorder : Analysis of Reddit Posts using Large Language Model(LLM)s and Topic Modeling</b></a> accepted for publicaition in the Proceedings of the Workshop on Natural Language Processing for Digital Humanities during EMNLP 2024. Congratulations to the team!</p>
+</div>
+<div class="notice--success">
+  <h4>JOWO [Sept. 2024]</h4>
+  <p> 1 <a href="/contributions/#3-building-fkgin-a-knowledge-graph-for-indian-food-ifow-2024" class="alert-link">paper on <b>Building FKG.in: a Knowledge Graph for Indian Food</b></a> accepted for publication in the Proceedings of the Joint Ontology Workshops (JOWO) - Episode X: The Tukker Zomer of Ontology, and satellite events co-located with the 14th International Conference on Formal Ontology in Information Systems (FOIS 2024). Congratulations to the team!</p>
+</div>
+<div class="notice--primary">
+  <h4>Internship [Summer 2024]</h4>
+  <p> 15 <a href="/people/#students-and-interns" class="alert-link">students</a> completed their summer internship successfully. Congratulations to all the interns!
+  </p>
+</div>
+<div class="notice--info">
+  <h4>IFOW [July 2024]</h4>
+  <p> Prof. Lipika Dey presented our work on <b>Building FKG.in: a knowledge graph for Indian food</b> at the <b>Formal Ontology in Information Systems (FOIS): Integrated Food Ontology Workshop (IFOW)</b> hosted at the University of Twente, Enschede, Netherlands.
+  </p>
+</div>
+<div class="notice--warning">
+  <h4>IFH - Distinguished Lecture [Jun. 2024]</h4>
+  <p>
+    Prof. Partha Das gave a distinguished lecture on our work on <b>FKG.in: Food Knowledge Graph in Indian Perspective</b> while visiting the ‘Institute for Future Health’ at UC Irvine, US.
+  </p>
+</div>
+<div class="notice--info">
+  <h4>BDBio - Poster [Jun. 2024]</h4>
+  <p>Saransh Gupta presented a <a href="/contributions/#4-building-a-knowledge-graph-for-indian-food-bdbio-2024---poster" class="alert-link">poster on <b>Building a knowledge graph for Indian food</b></a> at the <b>Big Data Algorithms for Biology (BDBio) Symposium</b> hosted at Indian Institute of Science (IISc), Bangalore, India.
+  </p>
+</div>
+<div class="notice--primary">
+  <h4>Food Computing Course [Monsoon 2023]</h4>
+  <p> 12 <a href="/people/#students-and-interns" class="alert-link">students</a> completed the first offering of the Food Computing course in India successfully. Congratulations to all the students!
+  </p>
+</div>
+<div class="notice--info">
+  <h4>PHN - Presentation [Oct. 2023]</h4>
+  <p>Prof. Partha Das presented our initial work on <b>Food Computing Initiatives in India: Challenges and Opportunities</b> at the <b>Personalized Health Navigation (PHN): Food and Nutrition (F&amp;N) Workshop</b> hosted at Institute of Health Data Infrastructure for All (IDIAL), Tokyo, Japan.</p>
+</div>
+<div class="notice--primary">
+  <h4>Internship [Summer 2023]</h4>
+  <p> 6 <a href="/people/#students-and-interns" class="alert-link">students</a> completed their summer internship successfully. Congratulations to all the interns!
+  </p>
+</div>
+<div class="notice--danger">
+  <h4>Food Computing@Ashoka University [Monsoon 2022]</h4>
+  <p>Food Computing initiatives started at Ashoka University by <i>Dr. Ramesh Jain</i>, <i>Dr. Anurag Agrawal</i>, <i>Dr. Partha Pratim Das</i>, and <i>Dr. Geeta Trilok-Kumar</i>.</p>
+</div>
 
         
       </section>
@@ -212,7 +317,6 @@ Explore our research, meet our team, and learn more about our mission at Ashoka 
 
 
         
-
       </footer>
 
       
@@ -227,8 +331,30 @@ Explore our research, meet our team, and learn more about our mission at Ashoka 
   
 </div>
 
-      
     </div>
+    <script>
+        let darkMode = localStorage.getItem("darkMode");
+
+        if (darkMode === "enabled") {
+            var link = document.getElementById('nav-bar-logo');
+            link.src =  link.src.replace('light', 'dark');
+            link = document.getElementById('dark-toggle-link');
+            link.href =  link.href.replace('light', 'dark');
+            e = document.getElementById('big-home-logo');
+            if (e !== null)
+                e.src = e.src.replace('light', 'dark');
+        }
+        else {
+            var link = document.getElementById('nav-bar-logo');
+            link.src =  link.src.replace('dark', 'light');
+            link = document.getElementById('dark-toggle-link');
+            link.href =  link.href.replace('dark', 'light');
+            e = document.getElementById('big-home-logo');
+            if (e !== null)
+                e.src = e.src.replace('dark', 'light');
+        }
+    </script>
+
 
     
 
@@ -237,44 +363,113 @@ Explore our research, meet our team, and learn more about our mission at Ashoka 
         <!-- start custom footer snippets -->
 
 <!-- end custom footer snippets -->
-        
-<footer>
-    <div class="footer-container">
-      <div class="footer-links">
-        <a href="https://github.com/fkg-india" target="_blank">
-          <i class="fab fa-github"></i> 
-        </a>
+        <footer class="bg-light text-center py-2"> <!-- Light background and reduced padding for footer -->
+  <div class="container d-flex justify-content-between align-items-center"> <!-- Flexbox for alignment -->
+    
+    <!-- Footer links (Logos) -->
+    <span class="footer-links d-flex align-items-center" style="float: left; margin-top: -10px;"> <!-- Align icons vertically -->
+      <a href="https://github.com/fkg-india" target="_blank" class="text-dark me-3">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://instagram.com/ashokauniv" target="_blank" class="text-dark me-3">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.ashoka.edu.in/" target="_blank">
+        <img id="footer-ashoka-logo" src="/assets/images/logo/ashoka_uni_light.png" alt="Ashoka University Logo" style="width: 100px; margin-top: -10px">
+      </a>
+    </span>
+    
+    <!-- Centered copyright text -->
+    <span class="page__footer-copyright" style="position: relative; top: -10px;"> 
+      &copy; 2024 Food Computing Group. Powered by 
+      <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; 
+      <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.
+    </span>
+    
+    <!-- Dark mode toggle button on the right -->
+    <span style="float: right; margin-top: -10px;">
+      <a onclick="darkToggle()" role="button" style="cursor:pointer;">
+        <i id="dark-toggle" class="fas fa-toggle-off fa-lg"></i>
+      </a>
+    </span>
+    
+  </div>
+</footer>
 
-        <a href="https://instagram.com/ashokauniv" target="_blank">
-          <i class="fab fa-instagram"></i> 
-        </a>
-
-        <a href="https://www.ashoka.edu.in/" target="_blank">
-          <img src="/assets/images/logo/ashoka_uni.png" alt="Ashoka University Logo" style="width: 80px; vertical-align: middle;">
-          
-        </a>
-
-      </div>
-      <div class="footer-copyright">
-        © Food Computing Group – All Rights Reserved
-      </div>
-  
-    </div>
-  </footer>
-  
       </footer>
     </div>
 
-    
-  <script src="/assets/js/main.min.js"></script>
+    <!-- Dark Mode Script -->
+<script>
+  // Check if 'darkMode' is already defined
+  if (typeof darkMode === 'undefined') {
+    let darkMode = localStorage.getItem("darkMode");
+  }
+
+  function updateTheme() {
+      const logo = document.getElementById('nav-bar-logo');
+      const toggleLink = document.getElementById('dark-toggle-link');
+      const bigHomeLogo = document.getElementById('big-home-logo');
+      const footerAshokaLogo = document.getElementById('footer-ashoka-logo');
+      const darkToggle = document.getElementById('dark-toggle');
+
+      if (darkMode === "enabled") {
+          logo.src = logo.src.replace('light', 'dark');
+          toggleLink.href = toggleLink.href.replace('light', 'dark');
+          if (bigHomeLogo) {
+              bigHomeLogo.src = bigHomeLogo.src.replace('light', 'dark');
+          }
+          if (footerAshokaLogo) {
+              footerAshokaLogo.src = footerAshokaLogo.src.replace('light', 'dark');
+          }
+          if (darkToggle) {
+              darkToggle.classList.add('fa-toggle-on');
+              darkToggle.classList.remove('fa-toggle-off');
+          }
+      } else {
+          logo.src = logo.src.replace('dark', 'light');
+          toggleLink.href = toggleLink.href.replace('dark', 'light');
+          if (bigHomeLogo) {
+              bigHomeLogo.src = bigHomeLogo.src.replace('dark', 'light');
+          }
+          if (footerAshokaLogo) {
+              footerAshokaLogo.src = footerAshokaLogo.src.replace('dark', 'light');
+          }
+          if (darkToggle) {
+              darkToggle.classList.add('fa-toggle-off');
+              darkToggle.classList.remove('fa-toggle-on');
+          }
+      }
+  }
+
+  updateTheme();
+
+</script>
+
+
+<script src="/assets/js/main.min.js"></script>
+<script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
 
 
 
-
-
-
-
+    <script>
+        if (darkMode === "enabled") {
+            var e = document.getElementById('dark-toggle');
+            if (e !== null)
+                e.classList.add('fa-toggle-on');
+                if (e !== null)
+                    e.classList.remove('fa-toggle-off');
+        }
+        else {
+            var e = document.getElementById('dark-toggle');
+            if (e !== null)
+                e.classList.add('fa-toggle-off');
+                if (e !== null)
+                    e.classList.remove('fa-toggle-on');
+        }
+    </script>
 
   </body>
 </html>

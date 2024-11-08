@@ -17,3 +17,11 @@ gem 'webrick', '~> 1.7'
 gem 'csv'
 
 gem "minimal-mistakes-jekyll"
+
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+
+gem 'fiddle'
+
+gem 'faraday-retry'
+
+gem "jekyll-include-cache"

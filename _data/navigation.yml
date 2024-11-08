@@ -1,15 +1,16 @@
-#links to masthead 
+# Links to masthead navigation
 main:
   - title: "Home"
-    url: /
-  - title: "People"
-    url: /people/
+    url: /index/
+  - title: "About"
+    url: /about/
   - title: "Research"
     url: /research/
+  - title: "Contributions"
+    url: /contributions/
+  - title: "People"
+    url: /people/
+  - title: "Connect"
+    url: /connect/
   - title: "FKG.in"
-    url: #/fkgin/
-  - title: "Contact Us"
-    url: #/contactus/
-  
-  
-  
+    url: /fkg-in/
