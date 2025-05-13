@@ -1,6 +1,6 @@
 main:
   - title: "Home"
-    url: "/home"
+    url: "/home/"
     description: "Overview of MFC@Ashoka and latest news"
 
   - title: "Research"
