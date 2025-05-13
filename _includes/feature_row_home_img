@@ -15,7 +15,7 @@
     {% endif %}
 
     <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
-      <div class="archive__item">
+      <div class="archive__item_home">
         {% if f.image_path %}
           <div class="archive__item-teaser">
             <img {% if f.id %}id="{{ f.id }}"{% endif %} src=
@@ -51,3 +51,34 @@
   {% endfor %}
 
 </div>
+
+<style>
+  .archive__item_home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  min-height: 200px; /* Adjust based on desired image box height */
+  box-sizing: border-box;
+  text-align: center; /* Optional, if image captions need centering */
+}
+
+.feature__item--left .archive__item_home {
+  flex-direction: row;
+  text-align: left;
+}
+
+.feature__item--right .archive__item_home {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.archive__item_home {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+</style>

@@ -10,99 +10,66 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                   : "minimal-mistakes-jekyll"
-remote_theme              : "mmistakes/minimal-mistakes"
-light_theme               : "default"
+# Site settings
+title: Multimodal Food Computing Lab
+subtitle: "MMFood@Ashoka - from Bytes to Bites, everything in between"
+description: "The official group website for the Multimedia Food Computing group at Ashoka University, where we explore interdisciplinary research on AI x Food x Data."
+email: foodcomputing.ashoka@gmail.com
+url: "https://fkg-india.github.io/"
+logo : "/assets/images/logo/ashoka_uni_light.png"
+mmfood_logo : "/assets/images/logo/mmfood_logo.png"
+
+
+#theme
+remote_theme: mmistakes/minimal-mistakes
+light_theme               : "contrast"
 dark_theme                : "dark"
-minimal_mistakes_skin     : "default" #, "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: contrast # "air", "aqua", "sunrise", "dark", "dirt", "neon", "mint", "plum", "default"
+search: false
 
-# Set the base URL for GitHub Pages (optional, replace with your repository name if necessary)
-# baseurl: "/your-repo-name"
+# Site Settings
+locale: "en-US"
 
-# Site settings (optional, but useful)
-locale                    : "en-US"
-title                     : "Food Computing Group"
-subtitle                  : "Version 1.5"
-title_separator           : "-"
-description               : "Welcome to the Food Computing Group at Ashoka University, where we explore interdisciplinary research at the intersection of food, computing, and data."
-url                       : "https://fkg-india.github.io/" # Replace with your website URL
-baseurl                   : ""
-repository                : "fkg-india/fkg-india.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-author                    : "Food Computing Group"
-logo                      : "/assets/images/logo/ashoka_uni_light.png"
-# teaser                  : ""
-masthead_title            : "" # overrides the website title displayed in the masthead, use " " for no title
+author:
+  name   : ""
+  avatar : "/assets/images/logo/mmfood_logo.png"
+  location : "Ashoka University, India"
+  bio    : "<b>Guiding Philosophy:</b><br> Food for Thought, Thought for Food"
+  links:
+    - label: "foodcomputing.ashoka@gmail.com"
+      icon: "fas fa-envelope"
+      url: "mailto:foodcomputing.ashoka@gmail.com"
 
-# Reading Files
-include:
-  - .htaccess
-  - _pages
-exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - vendor
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
-  - Capfile
-  - CHANGELOG
-  - config
-  - Gemfile
-  - Gemfile.lock
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - log
-  - node_modules
-  - package.json
-  - package-lock.json
-  - Rakefile
-  - README
-  - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
-keep_files:
-  - .git
-  - .svn
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md,html"
-
-
-# Ensure GitHub Pages compatible gems are used
-plugins:  
-  - jekyll-feed  
-  - jekyll-paginate  # Enable pagination (optional, needed if you're using blog posts or pagination)
-  - jekyll-sitemap
-  - github-pages
-  - jekyll-include-cache
-
-paginate: 5  # Number of posts to show per page
-paginate_path: '/page:num/'
-
-
-# Collections for posts
-collections:
-  posts:
-    output: true
-    permalink: /:categories/:year/:month/:day/:title.html
-
-# Additional settings
-defaults:
-  - scope:
-      path: "" # empty means all files
-      type: "posts"
-    values:
-      layout: "posts"
-      author_profile: false
-
-# Any other configurations or plugins you want to add (optional)
-incremental: true
-
+# Build settings
 markdown: kramdown
-sass:
-  sass_dir: _sass
-  style: nested  # Adjust based on your preferred output style (compressed/nested)
+timezone:	Asia/Calcutta
+
+include:
+  - _pages
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-gist
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-redirect-from
+
+footer:
+
+# Disable feed links
+atom_feed:
+  hide: true
+
+defaults:
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      author_profile: true
+      classes: wide
+      toc: true
+      toc_sticky: true
+      toc_label: "Jump To"
+      toc_icon: "cogs"

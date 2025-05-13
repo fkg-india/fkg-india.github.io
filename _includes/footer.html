@@ -1,32 +1,17 @@
-<footer class="bg-light text-center py-2"> <!-- Light background and reduced padding for footer -->
-  <div class="container d-flex justify-content-between align-items-center"> <!-- Flexbox for alignment -->
-    
-    <!-- Footer links (Logos) -->
-    <span class="footer-links d-flex align-items-center" style="float: left; margin-top: -10px;"> <!-- Align icons vertically -->
-      <a href="https://github.com/fkg-india" target="_blank" class="text-dark me-3">
-        <i class="fab fa-github"></i>
-      </a>
-      <a href="https://instagram.com/ashokauniv" target="_blank" class="text-dark me-3">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="https://www.ashoka.edu.in/" target="_blank">
-        <img id="footer-ashoka-logo" src="{{ '/assets/images/logo/ashoka_uni_light.png' | relative_url }}" alt="Ashoka University Logo" style="width: 100px; margin-top: -10px">
-      </a>
-    </span>
-    
-    <!-- Centered copyright text -->
-    <span class="page__footer-copyright" style="position: relative; top: -10px;"> 
-      &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} 
-      <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; 
-      <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.
-    </span>
-    
-    <!-- Dark mode toggle button on the right -->
-    <span style="float: right; margin-top: -10px;">
-      <a onclick="darkToggle()" role="button" style="cursor:pointer;">
-        <i id="dark-toggle" class="fas fa-toggle-off fa-lg"></i>
-      </a>
-    </span>
-    
-  </div>
-</footer>
+<div class="page__footer-copyright" style="display: flex; justify-content: space-between; align-items: center; text-align: center; flex-wrap: wrap;">
+  
+  <span style="text-align: left;">
+    &copy; 
+    <a href="{{ site.copyright_url | default: site.url }}">
+      {{ site.copyright | default: site.title }}
+    </a> | Committed to better food futures
+
+  </span>
+  
+  <span style="text-align: right;">
+    {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} 
+    <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; 
+    <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.
+  </span>
+
+</div>
