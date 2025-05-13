@@ -1,3 +1,17 @@
-<footer>
-    <p>&copy; {{ site.title }} - All Rights Reserved</p>
-</footer>
+<div class="page__footer-copyright" style="display: flex; justify-content: space-between; align-items: center; text-align: center; flex-wrap: wrap;">
+  
+  <span style="text-align: left;">
+    &copy; 
+    <a href="{{ site.copyright_url | default: site.url }}">
+      {{ site.copyright | default: site.title }}
+    </a> | Committed to better food futures
+
+  </span>
+  
+  <span style="text-align: right;">
+    {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} 
+    <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; 
+    <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.
+  </span>
+
+</div>

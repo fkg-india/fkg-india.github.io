@@ -1,0 +1,44 @@
+main:
+  - title: "Home"
+    url: "/home/"
+    description: "Overview of MFC@Ashoka and latest news"
+
+  - title: "Research"
+    url: "/research/"
+    description: "Learn about research themes, contributions, and impact"
+
+  - title: "Connect"
+    url: "/connect/"
+    description: "Connect with us and learn about the open opportunities"
+      
+  - title: "News"
+    url: "/news/"
+    description: "Stay updated with the latest news and events"
+
+  - title: "Team"
+    url: "/about/team/"
+    description: "Meet the team behind MMFood@Ashoka"
+
+
+sidebar:
+  - title: "Projects"
+    children:
+      - title: "FKG.in"
+        url: "/library/fkg-in/"
+
+  - title: "Library"
+    children:
+      - title: "Events"
+        url: "/library/events/"
+      - title: "Datasets"
+        url: "/library/datasets/"
+      - title: "Demo"
+        url: "/library/demo/"
+  - title: "About Us"
+    children:
+      - title: "Context"
+        url: "/about/context/"
+      - title: "Gallery"
+        url: "/library/gallery/"
+      - title: "Partnerships"
+        url: "/about/partnerships/"
