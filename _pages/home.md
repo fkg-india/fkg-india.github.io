@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "<p style='font-size: 0.8em;'>MMFood@Ashoka</p>"
-permalink: /home/
+permalink: /home
 toc: false
 sidebar:
   nav: sidebar
