@@ -50,10 +50,16 @@ GEM
       faraday-net_http (>= 2.0, < 3.5)
       json
       logger
+<<<<<<< HEAD
     faraday-net_http (3.4.0)
       net-http (>= 0.5.0)
     ffi (1.17.2-x64-mingw-ucrt)
     filesize (0.2.0)
+=======
+    faraday-net_http (3.3.0)
+      net-http
+    ffi (1.17.0-x64-mingw-ucrt)
+>>>>>>> main
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
     github-pages (232)
@@ -250,11 +256,18 @@ GEM
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
+<<<<<<< HEAD
     minitest (5.25.5)
     mutex_m (0.3.0)
     net-http (0.6.0)
       uri
     nokogiri (1.18.8-x64-mingw-ucrt)
+=======
+    minitest (5.25.1)
+    net-http (0.4.1)
+      uri
+    nokogiri (1.16.7-x64-mingw-ucrt)
+>>>>>>> main
       racc (~> 1.4)
     octokit (4.25.1)
       faraday (>= 1, < 3)
@@ -298,6 +311,7 @@ PLATFORMS
   x64-mingw-ucrt
 
 DEPENDENCIES
+<<<<<<< HEAD
   github-pages
   jekyll-algolia
   jekyll-gist
@@ -306,6 +320,16 @@ DEPENDENCIES
   jekyll-sitemap
   jemoji
   tzinfo-data
+=======
+  csv
+  github-pages (~> 228)
+  jekyll (~> 3.9)
+  kramdown (>= 1.17.0)
+  webrick (~> 1.7)
+
+RUBY VERSION
+   ruby 3.3.5p100
+>>>>>>> main
 
 BUNDLED WITH
    2.6.5

@@ -1,15 +1,22 @@
+<<<<<<< HEAD
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
+=======
+# Minimal Jekyll config for GitHub Pages
+theme: minima  # GitHub Pages' default theme
+markdown: kramdown
+>>>>>>> main
 
 # Theme Settings
 #
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
+<<<<<<< HEAD
 # Site settings
 title: Multimodal Food Computing Lab
 subtitle: "MMFood@Ashoka - from Bytes to Bites, everything in between"
@@ -39,6 +46,14 @@ author:
     - label: "foodcomputing.ashoka@gmail.com"
       icon: "fas fa-envelope"
       url: "mailto:foodcomputing.ashoka@gmail.com"
+=======
+# Site settings (optional, but useful)
+title: Food Computing Group
+description: Welcome to our Food Computing Group
+baseurl: ""
+url: "http://fkg-india.github.io" # Replace with your website URL
+author: Your Name
+>>>>>>> main
 
 # Build settings
 markdown: kramdown
