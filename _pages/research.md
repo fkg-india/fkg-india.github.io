@@ -19,12 +19,12 @@ knowledge_graph:
   - image_path: /assets/images/research/fkg.png
     title: "Indian Food Knowledge Graph"
     subtitle: "FKG.in: Building, Validation, Evaluation, Maintenance, and Analysis of a Domain-Specific Knowledge Graph"
-    image_caption: "MMFood@Ashoka"
+    image_caption: "FoodComputing@Ashoka"
   
   - image_path: /assets/images/research/recipe_finder.png
     title: "Intelligent Recipe Discovery System"
     subtitle: "Design and Deployment of an Intelligent Interface for Querying and Exploring the Indian Food Knowledge Graph"
-    image_caption: "MMFood@Ashoka"
+    image_caption: "FoodComputing@Ashoka"
   
   - image_path: /assets/images/research/interoperability.png
     title: "Global Interoperability"
@@ -88,7 +88,7 @@ food_atlas:
   - image_path: /assets/images/research/ashoka_eatery.jpg
     title: "Ashoka Eatery Catalogue"
     subtitle: "Mapping Food Sources, Offerings, and Availability Across Campus to Support Research, Accessibility, and Nutrition Awareness"
-    image_caption: "MMFood@Ashoka"
+    image_caption: "FoodComputing@Ashoka"
 
   - image_path: /assets/images/research/beyond_fkg.png
     title: "Applications Beyond the Knowledge Graph"
@@ -125,7 +125,7 @@ food_systems:
   - image_path: /assets/images/research/food_computing.png
     title: "Food Computing Applications"
     subtitle: "Designing and Developing Food Computing Applications to study and address Systemic Challenges in the Agri-Food Systems"
-    image_caption: "MMFood@Ashoka"
+    image_caption: "FoodComputing@Ashoka"
 
   
 knowledge_dissemination:
@@ -246,7 +246,7 @@ Can we build a comprehensive, granular, and reliable Food Knowledge Graph for In
   
 ###### &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-lightbulb"></i> <u> Key Question & Focus Areas </u>
 <div class="section-indent">
-  Can we build multimodal AI solutions tailored to Indian food that combine visual, textual, and procedural understanding to enable intelligent food analysis, recipe generation, and data interpretation at scale?
+  Can we build multimodal & AI solutions tailored to Indian food that combine visual, textual, and procedural understanding to enable intelligent food analysis, recipe generation, and data interpretation at scale?
   {% include feature_row_custom id="multimodal_food" %}
 </div>
 

@@ -43,7 +43,7 @@ Please download the <b>Call For Papers</b> and share in your circles. Thank you!
 
 #### RASOI Data Challenge @ NCVPRIPG’25  
 <div style="font-size: 0.9em;">
-The <b>RASOI (Recognition and Segmentation of Indian Thali using AI)</b> Data Challenge is a national-level competition organized by <b>MMFood@Ashoka</b> in collaboration with the <b>10th National Conference on Computer Vision, Pattern Recognition, Image Processing, and Graphics NCVPRIPG 2025</b>. It will be held from <b>16th to 18th July 2025</b> at the <b>National Institute of Technology (NIT) Srinagar</b>, jointly organized with <b>IIT Jammu</b> and <b>NIT Jalandhar</b>.
+The <b>RASOI (Recognition and Segmentation of Indian Thali using AI)</b> Data Challenge is a national-level competition organized by <b>FoodComputing@Ashoka</b> in collaboration with the <b>10th National Conference on Computer Vision, Pattern Recognition, Image Processing, and Graphics NCVPRIPG 2025</b>. It will be held from <b>16th to 18th July 2025</b> at the <b>National Institute of Technology (NIT) Srinagar</b>, jointly organized with <b>IIT Jammu</b> and <b>NIT Jalandhar</b>.
 <br><br>
 
 This challenge aims to advance AI-driven food analysis by focusing on the visually complex and culturally diverse Indian Thali. Participants will develop models to:

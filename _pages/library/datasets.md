@@ -35,7 +35,7 @@ The <b>RASOI (Recognition and Segmentation of Indian Thali using AI)</b> dataset
   <i class="fa-solid fa-pen-nib"></i> <b>Attribution Requirement:</b> Any use of this dataset must include proper credit to its creators. The following attribution must appear in all publications, presentations, evaluations, communications, and anywhere else that the dataset may be referenced:
   <br>
   <span style="display: block; margin-top: 0.5em; font-style: italic; font-weight: bold;">
-    "Created and maintained by the Multimodal Food Computing Lab, Ashoka University, India."
+    "Created and maintained by the Food Computing Lab, Ashoka University, India."
   </span>
 </p>
 
