@@ -54,7 +54,7 @@ The problem is not just about missing data - it is about fragmented systems. Tra
 
 #### Where Food Meets Intelligence
 <p style="font-size: 0.9em;">
-At the Multimodal Food Computing Lab, we conduct interdisciplinary research at the frontier of AI and food systems. We work at the intersection of Natural Language Processing, Knowledge Representation, Machine Learning, Semantic Web, and Software Engineering — blending them with food science, nutrition, and cultural studies. Our research focuses on understanding and analyzing food using intelligent algorithms that scale across languages, regions, and modalities. By grounding cutting-edge AI in food-specific contexts, we aim to tackle pressing challenges related to health, misinformation, traceability, and sustainability in the Indian food supply chain.
+At the Food Computing Lab, we conduct interdisciplinary research at the frontier of AI and food systems. We work at the intersection of Natural Language Processing, Knowledge Representation, Machine Learning, Semantic Web, and Software Engineering — blending them with food science, nutrition, and cultural studies. Our research focuses on understanding and analyzing food using intelligent algorithms that scale across languages, regions, and modalities. By grounding cutting-edge AI in food-specific contexts, we aim to tackle pressing challenges related to health, misinformation, traceability, and sustainability in the Indian food supply chain.
 </p>
 
 #### Initial Groundwork

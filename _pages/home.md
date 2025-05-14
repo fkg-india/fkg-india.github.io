@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "<p style='font-size: 0.8em;'>MMFood@Ashoka</p>"
+title: "<p style='font-size: 0.8em;'>FoodComputing@Ashoka</p>"
 permalink: /home
 toc: false
 sidebar:
@@ -24,7 +24,7 @@ permalink: /home
 
 banner_left:
   - image_path: /assets/images/banner/food_banner_alt.jpg
-    excerpt: "Welcome to the **Multimodal Food Computing Lab**! We strive to deepen our understanding of food and its intricate connections, including but not limited to *recipes, cooking, well-being, nutrition, dietary practices, agriculture, agrecology, misinformation, and heritage* - particularly in the **Indian context**. Our work emphasizes the importance of understanding food not only as a source of sustenance and enjoyment, but also as a vital component of a healthy and sustainable lifestyle. Using novel AI-driven computational technologies, we mine, curate and analyze data and relationships within food systems to uncover insights that enable *healthier eating habits, recipe generation, food recommendation, knowledge discovery, and informed decision-making*. To know more about our work, please browse the [research](/research/) section."
+    excerpt: "Welcome to the **Food Computing Lab**! We strive to deepen our understanding of food and its intricate connections, including but not limited to *recipes, cooking, well-being, nutrition, dietary practices, agriculture, agrecology, misinformation, and heritage* - particularly in the **Indian context**. Our work emphasizes the importance of understanding food not only as a source of sustenance and enjoyment, but also as a vital component of a healthy and sustainable lifestyle. Using novel AI-driven computational technologies, we mine, curate and analyze data and relationships within food systems to uncover insights that enable *healthier eating habits, recipe generation, food recommendation, knowledge discovery, and informed decision-making*. To know more about our work, please browse the [research](/research/) section."
     image_caption: unsplash
 
 timeline:
@@ -239,8 +239,8 @@ timeline:
     description: "Advancements in plant-based meats, lab-grown proteins, and food innovation startups focusing on synthetic meat, millet burgers, and lab-grown paneer."
   - title: "Food Traceability & Blockchain"
     description: "Using blockchain for traceability in Indian food exports, ensuring quality, origin integrity, and transparency for global consumers."
-  - title: "Food & Multimodal AI"
-    description: "AI-powered knowledge graphs, food recognition, portion detection, and calorie estimation using images and text; personalized diet planning based on health data, 
+  - title: "Food, Data & Multimodal AI"
+    description: "AI-powered knowledge graphs, food recognition, portion detection, and calorie estimation using images and text; personalized diet planning based on health data.
     preferences, and cultural context."
 ---
 
@@ -269,7 +269,7 @@ timeline:
 </div>
 <div class="notice--danger">
   <h4>NCVPRIPG'25 RASOI Data Challenge [July 2025]</h4>
-  <p><b>RASOI – Recognition and Segmentation of Indian Thali using AI</b> <a href="https://sites.google.com/view/rasoi-ncvpripg-2025/" target="_blank" class="alert-link">data challenge</a> will be hosted by MMFood@Ashoka along with NCVPRIPG 20025 at National Institute of Technology Srinagar from 16th to 18th July 2025. The main themes of the challenge are object detection, food classification, and total calorie estimation.</p>
+  <p><b>RASOI – Recognition and Segmentation of Indian Thali using AI</b> <a href="https://sites.google.com/view/rasoi-ncvpripg-2025/" target="_blank" class="alert-link">data challenge</a> will be hosted by FoodComputing@Ashoka along with NCVPRIPG 20025 at National Institute of Technology Srinagar from 16th to 18th July 2025. The main themes of the challenge are object detection, food classification, and total calorie estimation.</p>
 </div>
 <div class="notice--danger">
   <h4>ACM Multimedia - MMFood'25 [October 2025]</h4>

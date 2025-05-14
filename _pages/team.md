@@ -193,7 +193,7 @@ ioannis:
 
 <hr>
 
-> <p style="font-size: 0.9em;">The interdisciplinary team of MMFood@Ashoka consists of AI researchers, computer scientists, digital health experts, software developers, knowledge engineers, data scientists, food computing collaborators, and last but not the least, eager students: </p>
+> <p style="font-size: 0.9em;">The interdisciplinary team of FoodComputing@Ashoka consists of AI researchers, computer scientists, digital health experts, software developers, knowledge engineers, data scientists, food computing collaborators, and last but not the least, eager students: </p>
 
 ### Principal Investigators
 {% include feature_row_custom id="partha" type="left" %}
