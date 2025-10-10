@@ -264,16 +264,12 @@ timeline:
 
 #### Announcements
 <div class="notice--danger">
-  <h4>Summer Internship Opportunities [Summer 2025]</h4>
-  <p>We are actively seeking enthusiastic and passionate students for summer internship 2025. If you are interested in working with us, please fill the <a href='https://forms.gle/yfLPGqUriY8T7Kr26' target='_blank'>Google Form</a> to express your interest.</p>
-</div>
-<div class="notice--danger">
-  <h4>NCVPRIPG'25 RASOI Data Challenge [July 2025]</h4>
-  <p><b>RASOI – Recognition and Segmentation of Indian Thali using AI</b> <a href="https://sites.google.com/view/rasoi-ncvpripg-2025/" target="_blank" class="alert-link">data challenge</a> will be hosted by FoodComputing@Ashoka along with NCVPRIPG 20025 at National Institute of Technology Srinagar from 16th to 18th July 2025. The main themes of the challenge are object detection, food classification, and total calorie estimation.</p>
+  <h4>Internship Opportunities</h4>
+  <p>We are actively seeking enthusiastic and passionate students for internship. If you are interested in working with us, please fill the <a href='/connect/' target='_blank'>form</a> here or mail us directly at foodcomputing.ashoka@gmail.com to express your interest.</p>
 </div>
 <div class="notice--danger">
   <h4>ACM Multimedia - MMFood'25 [October 2025]</h4>
-  <p>The call for papers is open for the <a href="https://mm-food.github.io/" target="_blank" class="alert-link">1st International Workshop on Multi-modal Food Computing (MMFood'25)</a>. It will be hosted in conjunction with the 33rd ACM International Conference on Multimedia (ACMMM25) on <b>27th/28th Oct in Dublin, Ireland.</b> 2025. The deadline is <b>11th July</b>. The details of the hackathon based on Indian food knowledge graph will be made available soon. </p>
+  <p>The <a href="https://mm-food.github.io/" target="_blank" class="alert-link">1st International Workshop on Multi-modal Food Computing (MMFood'25)</a> will be hosted in conjunction with the 33rd ACM International Conference on Multimedia (ACMMM25) on <b>28th Oct. in Dublin, Ireland.</b> 2025. The details of the hackathon based on Indian food knowledge graph will be made available soon.</p>
 </div>
 
 <style>

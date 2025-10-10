@@ -223,14 +223,52 @@ ioannis:
 
 ### Students and Interns
 
-#### Capstone Thesis/Project (Spring 2024)
+#### Capstone Project (Monsoon 2024)
+
+| Name                    | Year of study | Discipline |Title                  |
+|-------------------------|---------------|------------------|-----------------|
+| Aarya Toshniwal         | 4th year      | Computer Science |                 |     
+| Arin Baswana            | 4th year      | Computer Science |                 |      
+| Aryan Verma             | 4th year      | Computer Science |                 |
+| Avik Mital              | 4th year      | Computer Science |                 |     
+| Reyan Mehta             | 4th year      | Computer Science |                 |      
+| Saransh Goel            | 4th year      | Computer Science |                 |
+
+<hr>
+
+#### Internship (Summer 2025)
+
+| Name                    | Year of study | Discipline |
+|-------------------------|---------------|------------------|
+| Rizwan Gulzar Mir       | PhD           | Computer Science |      
+| Aarush Kumbhakern       | 4th year      | Computer Science |      
+| Armaan Shah             | 4th year      | Computer Science |      
+| Jyotirmay Zamre         | 4th year      | Computer Science |
+| Anurav Singh            | 4th year      | Computer Science |
+| Roshni Agarwal          | 4th year      | Computer Science |
+| Pankhi Mehta            | 4th year      | Computer Science |      
+| Kunal Singh             | 4th year      | Computer Science |      
+| Soubhagya Daspattanayak | 4th year      | Computer Science |      
+| Devansh Srivastava      | 3rd year      | Computer Science |      
+| Mrinalini Jindal        | 3rd year      | Computer Science |   
+| Shambhavi Shastry       | 2nd year      | Computer Science |      
+| Shivanshi Singh         | 2nd year      | Computer Science |    
+| Rabbhiya Saluja         | 3rd year      | Computer Science |    
+| Anand Agarwal           | 2nd year      | Computer Science |    
+
+<hr>
+
+#### Capstone Thesis (Spring 2024)
 
 | Name                            | Year of study | Discipline | Title                                                                                                          |
-|---------------------------------|---------------|------------------|----------------------------------------------------------------------------------------------------------------|
-| Abhivyakti Shrivastava (Thesis) | 4th year      | Computer Science | Sustained SATisfaction: Pseudo-Boolean Optimised Indian Diet Recommendations for Hypertension, Diabetes & PCOS |
-| Karan Kumar                     | 4th year      | Computer Science |                                                                                                                |
-| Jaee Ponde                      | 3rd year      | Computer Science |                                                                                                                |
- 
+|-------------------------|---------------|------------------|----------------------------------------------------------------------------------------------------------------|
+| Abhivyakti Shrivastava  | 4th year      | Computer Science | Sustained SATisfaction: Pseudo-Boolean Optimised Indian Diet Recommendations for Hypertension, Diabetes & PCOS |
+
+#### Internship (Spring 2024)
+
+| Name                    | Year of study | Discipline |
+|-------------------------|---------------|------------------|
+| Jaee Ponde              | 4th year      | Computer Science |       
 
 <hr>
 

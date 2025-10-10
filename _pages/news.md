@@ -10,12 +10,8 @@ sidebar:
 ---
 
 <div class="notice--danger">
-  <h4>Summer Internship Opportunities [Summer 2025]</h4>
-  <p>We are actively seeking enthusiastic and passionate students for summer internship 2025. If you are interested in working with us, please fill the <a href='https://forms.gle/yfLPGqUriY8T7Kr26' target='_blank'>Google Form</a> to express your interest.</p>
-</div>
-<div class="notice--danger">
   <h4>NCVPRIPG'25 RASOI Data Challenge [July 2025]</h4>
-  <p><b>RASOI – Recognition and Segmentation of Indian Thali using AI</b> <a href="https://sites.google.com/view/rasoi-ncvpripg-2025/" target="_blank" class="alert-link">data challenge</a> will be hosted by FoodComputing@Ashoka along with NCVPRIPG 20025 at National Institute of Technology Srinagar from 16th to 18th July 2025. The main themes of the challenge are object detection, food classification, and total calorie estimation.</p>
+  <p><b>RASOI – Recognition and Segmentation of Indian Thali using AI</b> <a href="https://sites.google.com/view/rasoi-ncvpripg-2025/" target="_blank" class="alert-link">data challenge</a> was hosted by FoodComputing@Ashoka along with NCVPRIPG 20025 at National Institute of Technology Srinagar from 16th to 18th July 2025. The main themes of the challenge were object detection, food classification, and total calorie estimation.</p>
 </div>
 <div class="notice--danger">
   <h4>ACM Multimedia - MMFood'25 [October 2025]</h4>
