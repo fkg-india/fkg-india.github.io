@@ -313,7 +313,7 @@ function makeRow(p) {
   const link = document.createElement('a');
   link.className = 'pub-title-link';
   link.textContent = p.title || '';
-  link.href = (p.urls && (p.urls.article || p.urls.doi || p.urls.pdf || p.urls.arxiv)) ? (p.urls.article || p.urls.doi || p.urls.pdf || p.urls.arxiv) : '#';
+  link.href = (p.urls && (p.urls.article || p.urls.doi || p.urls.arxiv || p.urls.pdf)) ? (p.urls.article || p.urls.doi || p.urls.arxiv || p.urls.pdf) : '#';
   link.target = '_blank';
   link.rel = 'noopener';
   titleWrap.appendChild(link);
