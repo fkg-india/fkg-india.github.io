@@ -268,12 +268,10 @@ banner_left:
 <script>
 // FALLBACKS: page.publications -> site.data.my_publications -> site.data.publications
 const _page_pubs = {{ page.publications  | default: 'null' | jsonify }};
-const _my_pubs   = {{ site.data.my_publications | default: 'null' | jsonify }};
 const _pubs      = {{ site.data.publications   | default: 'null' | jsonify }};
 
 let PUBS = [];
 if (Array.isArray(_page_pubs)) PUBS = _page_pubs;
-else if (Array.isArray(_my_pubs)) PUBS = _my_pubs;
 else if (Array.isArray(_pubs)) PUBS = _pubs;
 
 if (!Array.isArray(PUBS)) PUBS = [];

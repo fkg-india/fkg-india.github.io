@@ -8,21 +8,21 @@
   year: 2025
   tags: ["ACMMM", "MMFood"]
   urls:
-    arXiv: "https://arxiv.org/abs/2508.16117"
+    arxiv: "https://arxiv.org/abs/2508.16117"
     pdf: "https://arxiv.org/pdf/2508.16117"
 
 - title: "Towards an Action-Centric Ontology for Cooking Procedures Using Temporal Graphs"
   year: 2025
   tags: ["ACMMM", "MMFood"]
   urls:
-    arXiv: "https://arxiv.org/abs/2509.04159"
+    arxiv: "https://arxiv.org/abs/2509.04159"
     pdf: "https://arxiv.org/pdf/2509.04159"
 
 - title: "What's Not on the Plate? Rethinking Food Computing through Indigenous Indian Datasets"
   year: 2025
   tags: ["ACMMM", "MMFood"]
   urls:
-    arXiv: "https://arxiv.org/abs/2509.16286"
+    arxiv: "https://arxiv.org/abs/2509.16286"
     pdf: "https://arxiv.org/pdf/2509.16286"
 
 - title: "Deciphering psycho-social effects of Eating Disorder: Analysis of Reddit Posts using LLMs and Topic Modeling"
@@ -37,7 +37,7 @@
   tags: ["ICPR", "MADiMa"]
   urls:
     article: "https://link.springer.com/chapter/10.1007/978-3-031-88217-3_6"
-    arXiv: "https://arxiv.org/abs/2412.05248"
+    arxiv: "https://arxiv.org/abs/2412.05248"
     pdf: "https://arxiv.org/pdf/2412.05248"
 
 - title: "Building FKG.in: A Knowledge Graph for Indian Food"
@@ -48,7 +48,7 @@
   urls:
     article: "https://ceur-ws.org/Vol-3882/"
     pdf: "https://ceur-ws.org/Vol-3882/ifow-4.pdf"
-    arXiv: "https://arxiv.org/abs/2409.00830"
+    arxiv: "https://arxiv.org/abs/2409.00830"
 
 - title: "Markers of chronic disease risk in term low birthweight Indian children aged 8–14 years"
   year: 2024
