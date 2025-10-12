@@ -1,0 +1,126 @@
+- title: "PRISM: Physician Rules Integrated with Small large language Models for probable diagnoses associated with Abdominal Pain"
+  year: 2025
+  tags: ["NeurIPS", "GenAI4Health"]
+  urls:
+    pdf: "/assets/pdfs/PRISM_paper.pdf"
+
+- title: "Extending FKG.in: Towards a Food Claim Traceability Network"
+  year: 2025
+  tags: ["ACMMM", "MMFood"]
+  urls:
+    arXiv: "https://arxiv.org/abs/2508.16117"
+    pdf: "https://arxiv.org/pdf/2508.16117"
+
+- title: "Towards an Action-Centric Ontology for Cooking Procedures Using Temporal Graphs"
+  year: 2025
+  tags: ["ACMMM", "MMFood"]
+  urls:
+    arXiv: "https://arxiv.org/abs/2509.04159"
+    pdf: "https://arxiv.org/pdf/2509.04159"
+
+- title: "What's Not on the Plate? Rethinking Food Computing through Indigenous Indian Datasets"
+  year: 2025
+  tags: ["ACMMM", "MMFood"]
+  urls:
+    arXiv: "https://arxiv.org/abs/2509.16286"
+    pdf: "https://arxiv.org/pdf/2509.16286"
+
+- title: "Deciphering psycho-social effects of Eating Disorder: Analysis of Reddit Posts using LLMs and Topic Modeling"
+  year: 2024
+  tags: ["EMNLP", "NLP4DH"]
+  urls:
+    article: "https://aclanthology.org/2024.nlp4dh-1.15/"
+    pdf: "https://aclanthology.org/2024.nlp4dh-1.15.pdf"
+
+- title: "Enhancing FKG.in: automating Indian food composition analysis"
+  year: 2024
+  tags: ["ICPR", "MADiMa"]
+  urls:
+    article: "https://link.springer.com/chapter/10.1007/978-3-031-88217-3_6"
+    arXiv: "https://arxiv.org/abs/2412.05248"
+    pdf: "https://arxiv.org/pdf/2412.05248"
+
+- title: "Building FKG.in: A Knowledge Graph for Indian Food"
+  year: 2024
+  tags:
+    - "FOIS"
+    - "IFOW"
+  urls:
+    article: "https://ceur-ws.org/Vol-3882/"
+    pdf: "https://ceur-ws.org/Vol-3882/ifow-4.pdf"
+    arXiv: "https://arxiv.org/abs/2409.00830"
+
+- title: "Markers of chronic disease risk in term low birthweight Indian children aged 8–14 years"
+  year: 2024
+  tags: ["Frontiers in Pediatrics"]
+  urls:
+    article: "https://www.frontiersin.org/journals/pediatrics/articles/10.3389/fped.2024.1339808/full"
+
+- title: "Efficacy of early enteral feeding with supplemented mother's milk on postoperative outcomes of cardiac surgical infants: A randomized controlled trial"
+  year: 2024
+  tags: ["APC"]
+  urls:
+    article: "https://pubmed.ncbi.nlm.nih.gov/39830487/"
+
+- title: "Dietary patterns of Indian school-aged children and associations with markers of chronic disease risk"
+  year: 2023
+  tags: ["FSN"]
+  urls:
+    article: "https://onlinelibrary.wiley.com/doi/full/10.1002/fsn3.3631"
+
+- title: "Longitudinal Growth and Undernutrition Burden Among Term Low Birth Weight Newborns Reared in Adverse Socioeconomic Conditions in Delhi"
+  year: 2023
+  tags: ["Indian Pediatrics"]
+  urls:
+    article: "https://link.springer.com/article/10.1007/s13312-023-3033-8"
+
+- title: "Food insecurity during Covid-19 pandemic among people residing in underprivileged areas of South Delhi"
+  year: 2022
+  tags: ["IJFANS"]
+  urls:
+    article: "https://ijfans.org/issue-content/food-insecurity-during-covid-19-pandemic-among-people-residing-in-underprivileged-areas-of-south-delhi-587"
+
+- title: "Long-term health after Severe Acute Malnutrition in children and adults - the role of the Pancreas (SAMPA): Protocol"
+  year: 2022
+  tags: ["F1000Research"]
+  urls:
+    article: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9577280/"
+
+- title: "Food Consumption Pattern of Adolescents in Delhi-NCR Born Full Term with Low Birth Weight with Reference to the New Estimated Average Requirement (EAR)"
+  year: 2021
+  tags: ["JCDR"]
+  urls:
+    article: "https://doi.org/10.7860/JCDR/2021/48505.15019"
+
+- title: "Suboptimal feeding and caring practices among young Indian children ages 12 to 24 mo living in the slums of New Delhi"
+  year: 2020
+  tags: ["Nutrition"]
+  urls:
+    article: "https://www.sciencedirect.com/science/article/abs/pii/S0899900718304647"
+
+- title: "Status of Vitamin B12 among Healthy Adult and Elderly Population in India: A Review"
+  year: 2020
+  tags: ["JNSV"]
+  urls:
+    article: "https://www.jstage.jst.go.jp/article/jnsv/66/Supplement/66_S361/_article/-char/ja/"
+
+- title: "Vitamin E status in healthy population in Asia: A review of current literature"
+  year: 2019
+  tags: ["IJVNR"]
+  urls:
+    article: "https://econtent.hogrefe.com/doi/full/10.1024/0300-9831/a000590"
+
+- title: "Zinc content of cereals and pulses in Delhi"
+  year: 2018
+  tags: ["IJND"]
+  urls:
+    article: "https://informaticsjournals.co.in/index.php/ijnd/article/view/16049"
+
+- title: "Designing programs to improve diets for maternal and child health: estimating costs and potential dietary impacts of nutrition-sensitive programs in Ethiopia, Nigeria, and India"
+  year: 2018
+  tags: ["Health Policy and Planning"]
+  urls:
+    article: "https://academic.oup.com/heapol/article/33/4/564/4924350"
+
+
+ 
