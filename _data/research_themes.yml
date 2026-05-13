@@ -1,0 +1,170 @@
+knowledge_graph:
+  - image_path: /assets/images/research/indian_food.jpg
+    title: "Indian Food and Cooking Ontology"
+    subtitle: "Establishing a foundational Indian culinary ontology: Semantic design, source identification, vocabulary curation, and knowledge engineering"
+    image_caption: "wikimedia"
+  
+  - image_path: /assets/images/research/fkg.png
+    title: "Indian Food Knowledge Graph"
+    subtitle: "FKG.in: Building, validation, evaluation, maintenance, and analysis of a domain-specific Knowledge Graph"
+    image_caption: "fcl@ashoka"
+  
+  - image_path: /assets/images/research/recipe_finder.png
+    title: "Intelligent Recipe Discovery System"
+    subtitle: "Design and deployment of an intelligent interface for querying and exploring the Indian Food Knowledge Graph"
+    image_caption: "fcl@ashoka"
+  
+  - image_path: /assets/images/research/interoperability.png
+    title: "Global Interoperability"
+    subtitle: "Development of an interoperable framework for seamless integration of Knowledge Graphs"
+    image_caption: "adobe stock"
+  
+  - image_path: /assets/images/research/validation.png
+    title: "Human-In-The-Loop Validation Pipeline"
+    subtitle: "Combining expert insights, crowdsourced contributions, and automated processes for continuous refinement and accuracy of the Knowledge Graph"
+    image_caption: "wallpaperaccess"
+
+  - image_path: /assets/images/research/internet_videos.png
+    title: "Recipe Curation from Internet Videos"
+    subtitle: "Mining and curation of multilingual recipe data using speech to text conversion from Indian cooking videos on platforms like YouTube"
+    image_caption: "freepik"
+
+health_research:
+  - image_path: /assets/images/research/wellbeing.jpg
+    title: "Ashoka Cohort for Health and Wellbeing"
+    subtitle: "Studying the determinants of health and well-being at Ashoka University"
+    image_caption: "wallpaperaccess"
+  
+  - image_path: /assets/images/research/pfm_dall-e.png
+    title: "Personal Food Model"
+    subtitle: "Developing individualized food models by integrating nutritional data, health metrics, and personal preferences for better dietary decisions"
+    image_caption: "dall-e"
+  
+  - image_path: /assets/images/research/eating_disorders.png
+    title: "Studying Eating Disorders"
+    subtitle: "Analyzing behavioral patterns, digital footprints, and health indicators to understand and support early detection of eating disorders"
+    image_caption: "kidzworld"
+  
+  - image_path: /assets/images/research/food_recommendation.jpg
+    title: "Food Recommendation System"
+    subtitle: "Generating personalized food recommendations, tailored to individual dietary needs, preferences, and health conditions"
+    image_caption: "vistanaturalwellness"
+
+  - image_path: /assets/images/research/label_analysis.png
+    title: "Packaged Food Label Analysis"
+    subtitle: "Building a pipeline to automatically parse and analyze packaged food labels — ingredients, nutrients, claims, etc. — and develop a rich repository of food product information in India"
+    image_caption: "eatopia"
+
+  - image_path: /assets/images/research/recipe_generation.png
+    title: "Novel/Alternate Recipe Generation"
+    subtitle: "Investigating approaches for generating novel and alternate recipes, including healthier variants, that reflect varied culinary cultures and contemporary tastes"
+    image_caption: "fcl@ashoka"
+
+multimodal_food:
+  - image_path: /assets/images/research/food_image.png
+    title: "Indian Food Image Analysis"
+    subtitle: "Object detection, food classification, and calorie estimation for Indian cuisine"
+    image_caption: "labellerr"
+
+  - image_path: /assets/images/research/language_diversity.jpg
+    title: "Indian Food Language Technology"
+    subtitle: "Exploring the intersection of food data mining and Computational Linguistics to address the diversity of Indian food cultures and languages"
+    image_caption: "telegraphindia"
+
+  - image_path: /assets/images/research/nutrition_calc.jpg
+    title: "Indian Food Composition Analysis"
+    subtitle: "Automating the calculation of nutrient and composition data for Indian food at scale"
+    image_caption: "nutritionix"
+
+  - image_path: /assets/images/research/recipe_benchmark.jpg
+    title: "Recipe Procedural Soundness Benchmark"
+    subtitle: "Assessing what makes a recipe coherent, cookable, correct, and complete"
+    image_caption: "unsplash"
+
+  - image_path: /assets/images/research/action_graph.png
+    title: "Formalizing Cooking Using Action Graphs"
+    subtitle: "Representing recipes as directed action graphs to capture processes, transfers, environments, concurrency, and compositional structure"
+    image_caption: "fcl@ashoka"
+
+  - image_path: /assets/images/research/multimodal_food.jpeg
+    title: "Multimodal Indian Food Dataset Creation"
+    subtitle: "Integrating visual, textual, and ingredient modalities to model food representation, downstream reasoning, and similarity inference"
+    image_caption: "acm-min25"
+
+food_atlas:
+  - image_path: /assets/images/research/spices.png
+    title: "Enriching FKG.in with Real-World Data"
+    subtitle: "Integrating diverse datasets — such as nutritional content, food pricing, consumption trends, and agricultural information — to enrich the Food Knowledge Graph"
+    image_caption: "wikimedia" 
+
+  - image_path: /assets/images/research/ashoka_eatery.jpg
+    title: "Ashoka Eatery Catalogue"
+    subtitle: "Mapping food sources, offerings, and availability across campus to support research, accessibility, and nutrition awareness"
+    image_caption: "fcl@ashoka"
+
+  - image_path: /assets/images/research/beyond_fkg.png
+    title: "Applications Beyond the Knowledge Graph"
+    subtitle: "Leveraging FKG.in to explore and develop potential applications that build on top of the Knowledge Graph"
+    image_caption: "uci futurehealth"
+
+  - image_path: /assets/images/research/food_sources.png
+    title: "Food Culture and Heritage"
+    subtitle: "Documenting the diversity, symbolism, and practices associated with Indian food traditions across regions and communities"
+    image_caption: "freepik"
+
+  - image_path: /assets/images/research/indigenous_recipe.png
+    title: "Mapping Indigenous Food Datasets"
+    subtitle: "Curating the vast yet underrepresented, undocumented, and digitally low-resource Indian culinary knowledge to foster equitable and sustainable food systems"
+    image_caption: "karya"
+
+food_systems:
+  - image_path: /assets/images/research/agroecology.jpg
+    title: "Agroecology and Local Knowledge Systems"
+    subtitle: "Integrating indigenous farming wisdom with ecological data for sustainable agricultural modelling"
+    image_caption: "whowhatwhy"
+
+  - image_path: /assets/images/research/farm_to_fork.jpg
+    title: "End to End Food Flow Mapping"
+    subtitle: "Mapping the journey of Indian food from agricultural production to consumer consumption"
+    image_caption: "ninjacart"
+
+  - image_path: /assets/images/research/food_policy.png
+    title: "Indian Food Safety and Food Policies"
+    subtitle: "Analyzing regulatory frameworks, safety protocols, and their impact on public health in the context of Indian food"
+    image_caption: "philabundance"
+
+  - image_path: /assets/images/research/food_claims.jpeg
+    title: "Food Claim Traceability Network"
+    subtitle: "Mapping and evaluating nutritional, cultural, and marketing claims published about food across scientific, media and policy sources"
+    image_caption: "sandboxproject"
+
+  - image_path: /assets/images/research/food_computing.png
+    title: "Food Computing Applications"
+    subtitle: "Designing and developing food computing applications to study and address systemic challenges in the agri-food systems"
+    image_caption: "fcl@ashoka"
+
+knowledge_dissemination:
+  - image_path: /assets/images/research/phn.png
+    title: "Personal Health Navigation System"
+    subtitle: "Designing a dynamic, user-centered system to guide individuals in making informed health and lifestyle decisions over time"
+    image_caption: "uci futurehealth"
+
+  - image_path: /assets/images/research/chat-eng.png
+    title: "Natural Language Interface (English)"
+    subtitle: "Developing a user-friendly interface for interacting with food-related datasets and applications using natural language"
+    image_caption: "learn.g2"
+
+  - image_path: /assets/images/research/chat-multilingual.png
+    title: "Vernacular Language Interface"
+    subtitle: "Building interfaces that support Indian vernacular languages in both speech and text formats"
+    image_caption: "av-eks-lekhak"
+
+  - image_path: /assets/images/research/conversational.png
+    title: "Conversational Interface"
+    subtitle: "Creating conversational AI systems that enable interaction with food computing technologies via OpenCHA and Large Language Models (LLMs)"
+    image_caption: "contactcenterpipeline"
+
+  - image_path: /assets/images/research/mobile_app.jpg
+    title: "Mobile App Development"
+    subtitle: "Designing and developing mobile applications that make food computing insights accessible to everyday users"
+    image_caption: "unsplash"

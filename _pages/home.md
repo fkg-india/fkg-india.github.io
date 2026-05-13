@@ -1,35 +1,45 @@
 ---
 layout: single
-title: "<p style='font-size: 0.8em;'>FoodComputing@Ashoka</p>"
+title: "<p style='font-size: 0.8em;'>FoodComputingLab@Ashoka</p>"
 permalink: /home
 toc: false
 sidebar:
   nav: sidebar
   sticky: true
 header:
-  height: 100vh
-  overlay_image: /assets/images/banner/food_banner.jpg
+  height: 90vh
+  overlay_image: /assets/images/banner/food_banner_og.jpg
   caption: "wallpapers"
   actions:
-  - label: "<a href='/connect/' target='_blank' style='display: inline-block; padding: 10px 15px; background-color: transparent; color: white; text-decoration: none; border: 2px solid white; border-radius: 5px; font-weight: bold;' onmouseover='this.style.backgroundColor=\"white\"; this.style.color=\"black\"' onmouseout='this.style.backgroundColor=\"transparent\"; this.style.color=\"white\"'> <i class='fas fa-fw fa-link'></i>Internship Opportunities<a>"
+  - label: "<a href='/connect/' target='_blank' style='display: inline-block; padding: 10px 15px; background-color: transparent; color: white; text-decoration: none; border: 2px solid white; border-radius: 5px; font-weight: bold;' onmouseover='this.style.backgroundColor=\"white\"; this.style.color=\"black\"' onmouseout='this.style.backgroundColor=\"transparent\"; this.style.color=\"white\"'> <i class='fas fa-fw fa-link'></i> Internship Opportunities</a>"
     url: "#"
-  - label: "<a href='https://sites.google.com/view/rasoi-ncvpripg-2025/' target='_blank' style='display: inline-block; padding: 10px 15px; background-color: transparent; color: white; text-decoration: none; border: 2px solid white; border-radius: 5px; font-weight: bold;' onmouseover='this.style.backgroundColor=\"white\"; this.style.color=\"black\"' onmouseout='this.style.backgroundColor=\"transparent\"; this.style.color=\"white\"'> <i class='fas fa-fw fa-link'></i> NCVPRIPG'25 RASOI Data Challenge</a>"
+  - label: "<a href='https://mm-food.github.io/' target='_blank' style='display: inline-block; padding: 10px 15px; background-color: transparent; color: white; text-decoration: none; border: 2px solid white; border-radius: 5px; font-weight: bold;' onmouseover='this.style.backgroundColor=\"white\"; this.style.color=\"black\"' onmouseout='this.style.backgroundColor=\"transparent\"; this.style.color=\"white\"'> <i class='fas fa-fw fa-link'></i> ACM Multimedia: Multi-modal Food Computing 2025 (MMFood'25)</a>"
     url: "#"
-  - label: "<a href='https://mm-food.github.io/' target='_blank' style='display: inline-block; padding: 10px 15px; background-color: transparent; color: white; text-decoration: none; border: 2px solid white; border-radius: 5px; font-weight: bold;' onmouseover='this.style.backgroundColor=\"white\"; this.style.color=\"black\"' onmouseout='this.style.backgroundColor=\"transparent\"; this.style.color=\"white\"'> <i class='fas fa-fw fa-link'></i> ACM MMFood'25 Workshop</a>"
+  - label: "<a href='https://dl.acm.org/doi/proceedings/10.1145/3746264' target='_blank' style='display: inline-block; padding: 10px 15px; background-color: transparent; color: white; text-decoration: none; border: 2px solid white; border-radius: 5px; font-weight: bold;' onmouseover='this.style.backgroundColor=\"white\"; this.style.color=\"black\"' onmouseout='this.style.backgroundColor=\"transparent\"; this.style.color=\"white\"'> <i class='fas fa-fw fa-link'></i> ACM Multimedia: MMFood'25 Workshop Proceedings</a>"
     url: "#"
-  - label: "<a href='/assets/resources/MMFood25_CFP.pdf' target='_blank' style='display: inline-block; padding: 10px 15px; background-color: transparent; color: white; text-decoration: none; border: 2px solid white; border-radius: 5px; font-weight: bold;' onmouseover='this.style.backgroundColor=\"white\"; this.style.color=\"black\"' onmouseout='this.style.backgroundColor=\"transparent\"; this.style.color=\"white\"'> <i class='fas fa-download'></i> Download ACM MMFood'25 Call for Papers</a>"
+  - label: "<a href='/assets/resources/Poster_FCL.pdf' target='_blank' style='display: inline-block; padding: 10px 15px; background-color: transparent; color: white; text-decoration: none; border: 2px solid white; border-radius: 5px; font-weight: bold;' onmouseover='this.style.backgroundColor=\"white\"; this.style.color=\"black\"' onmouseout='this.style.backgroundColor=\"transparent\"; this.style.color=\"white\"'> <i class='fas fa-download'></i> Download Lab Poster</a>"
+    url: "#"
+  - label: "<a href='/library/events/' target='_blank' style='display: inline-block; padding: 10px 15px; background-color: transparent; color: white; text-decoration: none; border: 2px solid white; border-radius: 5px; font-weight: bold;' onmouseover='this.style.backgroundColor=\"white\"; this.style.color=\"black\"' onmouseout='this.style.backgroundColor=\"transparent\"; this.style.color=\"white\"'> <i class='fas fa-fw fa-link'></i> Lab Events</a>"
     url: "#"
 excerpt: "Cooking humane, intelligent, scalable food solutions, <br> where <b>food</b>, <b>data</b>, & <b>AI</b> simmer into deliciously interdisciplinary research."
 permalink: /home
 
 banner_left:
   - image_path: /assets/images/banner/food_banner_alt.jpg
-    excerpt: "Welcome to the **Food Computing Lab**! We strive to deepen our understanding of food and its intricate connections, including but not limited to *recipes, cooking, well-being, nutrition, dietary practices, agriculture, agroecology, misinformation, and heritage* - particularly in the **Indian context**. Our work emphasizes the importance of understanding food not only as a source of sustenance and enjoyment, but also as a vital component of a healthy and sustainable lifestyle. <br> <br> On one front, we use novel AI-driven computational technologies to mine, curate and analyze data and relationships within food systems to uncover insights that enable *healthier eating habits, recipe generation, food recommendation, knowledge discovery, and informed decision-making*. On the other front, we investigate *systemic gaps in agri-food networks, examine food safety and policy frameworks, document the vast yet underrepresented diversity of Indian culinary knowledge — much of which remains undocumented or digitally low-resource —* to foster equitable and sustainable food systems. <br> <br> To know more about our work, please browse the [research](/research/) section."
+    excerpt: "Welcome to the **Food Computing Lab**! We strive to deepen our understanding of food and its intricate connections, including but not limited to *recipes, cooking, well-being, nutrition, dietary practices, agriculture, agroecology, misinformation, and heritage* — particularly in the **Indian context**. Our work emphasizes the importance of understanding food not only as a source of sustenance and enjoyment, but also as a vital component of a healthy and sustainable lifestyle. <br> <br> On one front, we use novel AI-driven computational technologies to mine, curate and analyze data and relationships within food systems to uncover insights that enable *healthier eating habits, recipe generation, food recommendation, knowledge discovery, and informed decision-making*. On the other front, we investigate *systemic gaps in agrifood networks, examine food safety and policy frameworks, and document the vast yet underrepresented diversity of Indian culinary knowledge* — much of which remains undocumented or digitally low-resource — to foster equitable and sustainable food systems. <br> <br> To know more about our work, please browse the [research](/research/) section."
     image_caption: unsplash
 ---
 
 <div class="d-flex align-items-center mb-4"> <!-- Flex container for logo and heading -->
   {% include feature_row_home_img id="banner_left" type="left" %}
+</div>
+
+<hr>
+
+#### Announcements
+<div class="notice--danger">
+  <h4>Internship Opportunities</h4>
+  <p>We are actively seeking enthusiastic and passionate students from all disciplines for internship. If you are interested in working with us, please fill the <a href='/connect/' target='_blank'>form</a> here or mail us directly at foodcomputing.ashoka@gmail.com to express your interest.</p>
 </div>
 
 <hr>
@@ -90,16 +100,6 @@ banner_left:
 </div>
 
 <hr>
-
-#### Announcements
-<div class="notice--danger">
-  <h4>Internship Opportunities</h4>
-  <p>We are actively seeking enthusiastic and passionate students for internship. If you are interested in working with us, please fill the <a href='/connect/' target='_blank'>form</a> here or mail us directly at foodcomputing.ashoka@gmail.com to express your interest.</p>
-</div>
-<div class="notice--danger">
-  <h4>ACM Multimedia - MMFood'25 [October 2025]</h4>
-  <p>The <a href="https://mm-food.github.io/" target="_blank" class="alert-link">1st International Workshop on Multi-modal Food Computing (MMFood'25)</a> will be hosted in conjunction with the 33rd ACM International Conference on Multimedia (ACMMM25) on <b>28th Oct. in Dublin, Ireland.</b> 2025. The details of the hackathon based on Indian food knowledge graph will be made available soon.</p>
-</div>
 
 <style>
 .horizontal-timeline-wrapper {
@@ -261,6 +261,26 @@ banner_left:
   .pub-row:hover{transform: none; box-shadow:none}
   .pub-title-link{max-width:100%}
 }
+
+.pub-track-row {
+  margin-top: 3px;
+  line-height: 1.2;
+}
+
+.pub-track-link,
+.pub-track-link:visited,
+.pub-track-link:active {
+  font-size: 0.72em;
+  font-weight: 600;
+  color: #b70100 !important;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.pub-track-link:hover {
+  color: #7f0000 !important;
+  text-decoration: underline;
+}
 </style>
 
 
@@ -268,7 +288,8 @@ banner_left:
 <script>
 // FALLBACKS: page.publications -> site.data.my_publications -> site.data.publications
 const _page_pubs = {{ page.publications  | default: 'null' | jsonify }};
-const _pubs      = {{ site.data.publications   | default: 'null' | jsonify }};
+const _pubs = {{ site.data.publications   | default: 'null' | jsonify }};
+const TRACKS = {{ site.data.research_tracks | jsonify }};
 
 let PUBS = [];
 if (Array.isArray(_page_pubs)) PUBS = _page_pubs;
@@ -279,8 +300,8 @@ if (!Array.isArray(PUBS)) PUBS = [];
 // sort newest-first by year (numeric)
 PUBS.sort((a,b) => (parseInt(b.year)||0) - (parseInt(a.year)||0));
 
-const ROWS_PER_PAGE = 8;
-let filtered = PUBS.slice();
+const ROWS_PER_PAGE = window.innerWidth < 640 ? 5 : 8;
+let filtered = PUBS.filter(p => p.display !== false);
 let page = 1;
 
 const tbody = document.getElementById('pub-tbody');
@@ -311,25 +332,81 @@ function makeRow(p) {
   const link = document.createElement('a');
   link.className = 'pub-title-link';
   link.textContent = p.title || '';
-  link.href = (p.urls && (p.urls.article || p.urls.doi || p.urls.arxiv || p.urls.pdf)) ? (p.urls.article || p.urls.doi || p.urls.arxiv || p.urls.pdf) : '#';
+  const primaryUrl =
+    p.urls?.article ||
+    p.urls?.doi ||
+    p.urls?.openreview ||
+    p.urls?.arxiv ||
+    p.urls?.pdf ||
+    p.urls?.poster ||
+    '#';
+  if (primaryUrl !== '#') {
+    link.href = primaryUrl;
+    link.target = '_blank';
+    link.rel = 'noopener';
+  } else {
+    link.href = '#';
+  }
   link.target = '_blank';
   link.rel = 'noopener';
   titleWrap.appendChild(link);
 
   titleAndTags.appendChild(titleWrap);
 
-  // tags AFTER title
-  if (Array.isArray(p.tags) && p.tags.length) {
+  const allTracks = [
+    p.primary_track,
+    ...(Array.isArray(p.secondary_tracks) ? p.secondary_tracks : [])
+  ].filter(Boolean);
+
+  if (allTracks.length) {
+    const trackWrap = document.createElement('div');
+    trackWrap.className = 'pub-track-row';
+
+    allTracks.forEach((trackKey, idx) => {
+      const track = TRACKS[trackKey];
+      if (!track) return;
+
+      const a = document.createElement('a');
+      a.className = 'pub-track-link';
+      a.href = track.link;
+      a.title = track.name;
+
+      // visually distinguish primary track
+      const label =
+        idx === 0
+          ? (track.short_name || track.name)
+          : `${track.short_name || track.name}`;
+
+      a.textContent = label;
+
+      trackWrap.appendChild(a);
+
+      if (idx < allTracks.length - 1) {
+        trackWrap.appendChild(document.createTextNode(' · '));
+      }
+    });
+
+    titleWrap.appendChild(trackWrap);
+  }
+
+if (Array.isArray(p.tags) && p.tags.length) {
+
     const tagsWrap = document.createElement('div');
     tagsWrap.style.flex = '0 0 auto';
     tagsWrap.style.display = 'flex';
     tagsWrap.style.gap = '6px';
-    p.tags.forEach(tag => {
-      const pill = document.createElement('span');
-      pill.className = 'pub-tag-pill';
-      pill.textContent = tag;
-      tagsWrap.appendChild(pill);
-    });
+    tagsWrap.style.flexWrap = 'wrap';
+
+    // normal tags
+    if (Array.isArray(p.tags)) {
+      p.tags.forEach(tag => {
+        const pill = document.createElement('span');
+        pill.className = 'pub-tag-pill';
+        pill.textContent = tag;
+        tagsWrap.appendChild(pill);
+      });
+    }
+
     titleAndTags.appendChild(tagsWrap);
   }
 
@@ -375,12 +452,22 @@ function normalize(s){ return (s||'').toString().toLowerCase(); }
 
 search.addEventListener('input', () => {
   const q = normalize(search.value.trim());
-  if (!q) filtered = PUBS.slice();
+  if (!q) {
+  filtered = PUBS.filter(p => p.display !== false);
+}
   else filtered = PUBS.filter(p =>
-    normalize(p.title).includes(q) ||
-    (p.tags && p.tags.join(' ').toLowerCase().includes(q)) ||
-    normalize(String(p.year || '')).includes(q) ||
-    normalize(p.venue || '').includes(q)
+    p.display !== false &&
+    (
+      normalize(p.title).includes(q) ||
+      (p.tags && p.tags.join(' ').toLowerCase().includes(q)) ||
+      normalize(String(p.year || '')).includes(q) ||
+      normalize(p.conference || '').includes(q) ||
+      normalize(p.primary_track || '').includes(q) ||
+      (
+        Array.isArray(p.secondary_tracks) &&
+        p.secondary_tracks.join(' ').toLowerCase().includes(q)
+      )
+    )
   );
   page = 1;
   renderTable();

@@ -10,7 +10,7 @@ sidebar:
 
 ---
 
-#### FKG.in Dataset @ Blazegraph
+#### FKG.in Dataset
 <div class="notice--danger">
   <h4>Coming Soon!</h4>
 </div>
@@ -18,12 +18,20 @@ sidebar:
 <hr>
 
 #### RASOI Dataset @ Kaggle
+
+<div style="text-align: center; margin: 15px 0;">
+  <img src="/assets/images/events/RASOI Dataset Challenge 2025/RASOI_images.png" 
+       alt="Food Alignment Forum 2026"
+       style="max-width: 100%; height: auto; border-radius: 8px;">
+</div>
+
 <div style="font-size: 0.9em;">
-The <b>RASOI (Recognition and Segmentation of Indian Thali using AI)</b> dataset is focused on Indian cuisine images and its annotations. It aims to advance AI-driven food analysis by focusing on the visually complex and culturally diverse Indian Thali images. This dataset was created for the RASOI challenge, organized as part of NCVPRIPG 2025 conference. It comprises images of Indian dishes, categorized into:
+
+<p>The <b>RASOI (Recognition and Segmentation of Indian Thali using AI)</b> dataset is focused on Indian cuisine images and its annotations. It aims to advance AI-driven food analysis by focusing on the visually complex and culturally diverse Indian Thali images. This dataset was created for the RASOI challenge, organized as part of NCVPRIPG 2025 conference. It comprises images of Indian dishes, categorized into:
 <ul> 
   <li><b>Standalone Recipes</b>: Individual food items with corresponding labels.</li>
   <li><b>Composite Thalis</b>: Images containing multiple dishes with bounding box annotations and labels.</li> 
-</ul>
+</ul></p>
 
 <i class="fa-solid fa-link"></i> <b>Kaggle Link:</b> <a href="https://www.kaggle.com/datasets/eda19bdde69843e6a82f85d0a6ee495139a81d5b76f79331eb54dd69e6b0d0a9
 " target="_blank">RASOI dataset</a>

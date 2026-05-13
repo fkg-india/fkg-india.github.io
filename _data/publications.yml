@@ -1,124 +1,256 @@
+- title: "LLM Driven Legal Text Analytics: A Case Study For Food Safety Violation Cases"
+  year: 2025
+  authors: "Suyog Joshi • Soumyajit Basu • Lipika Dey • Partha Pratim Das"
+  conference: "IJCNLP-AACL 2025: Workshop on NLP for Empowering Justice (Mumbai, India)"
+  tags: ["ACL", "JUST-NLP"]
+  primary_track:  food_systems
+  urls:
+    article: "https://aclanthology.org/2025.justnlp-main.6/"
+    pdf: "https://aclanthology.org/2025.justnlp-main.6.pdf"
+
+
 - title: "PRISM: Physician Rules Integrated with Small large language Models for probable diagnoses associated with Abdominal Pain"
   year: 2025
+  authors: "Gautam Ahuja • Ayush Agarwal • Hara Prasad Mishra • Samagra Agrawal • Bableen Kaur • Siddhant Poudyal • Himani Balutia • Sagarika • Sanjana Ahuja • Partha Pratim Das • Ramesh Jain • Partha Pratim Chakrabarti • Anurag Agrawal • Govind K Makharia • Rintu Kutum"
+  conference: "Neural Information Processing Systems (NeurIPS 2025): GenAI for Health Potential, Trust, and Policy Compliance Workshop (California, USA)"
   tags: ["NeurIPS", "GenAI4Health"]
+  primary_track: health_research
   urls:
+    openreview: "https://openreview.net/forum?id=c8QFEI1XBI"
     pdf: "/assets/pdfs/PRISM_paper.pdf"
+
+- title: "Proceedings of the 1st International Workshop on Multi-modal Food Computing"
+  year: 2025
+  authors: "Partha Pratim Das • Stavroula-Georgia Mougiakakou • Shuqiang Jiang • Lipika Dey • Marianna Obrist • Weiqing Min • Ioannis Papathanail • Saransh Kumar Gupta"
+  conference: "ACM Multimedia (ACMMM 2025): Multi-modal Food Computing Workshop Proceedings (Dublin, Ireland)"
+  tags: ["ACMMM", "MMFood"]
+  primary_track: multimodal_food
+  secondary_tracks:
+    - food_systems
+    - knowledge_graph
+    - food_atlas
+    - health_research
+    - knowledge_dissemination
+  urls:
+    article: "https://dl.acm.org/doi/proceedings/10.1145/3746264"
+    pdf: "https://dl.acm.org/doi/epdf/10.1145/3746264"
 
 - title: "Extending FKG.in: Towards a Food Claim Traceability Network"
   year: 2025
+  authors: "Saransh Kumar Gupta • Rizwan Gulzar Mir • Lipika Dey • Partha Pratim Das • Anirban Sen • Ramesh Jain"
+  conference: "ACM Multimedia (ACMMM 2025): Multi-modal Food Computing Workshop (Dublin, Ireland)"
   tags: ["ACMMM", "MMFood"]
+  primary_track: food_systems
+  secondary_tracks:
+    - knowledge_graph
   urls:
     arxiv: "https://arxiv.org/abs/2508.16117"
     pdf: "https://arxiv.org/pdf/2508.16117"
 
 - title: "Towards an Action-Centric Ontology for Cooking Procedures Using Temporal Graphs"
   year: 2025
+  authors: "Aarush Kumbhakern • Saransh Kumar Gupta • Lipika Dey • Partha Pratim Das"
+  conference: "ACM Multimedia (ACMMM 2025): Multi-modal Food Computing Workshop (Dublin, Ireland)"
   tags: ["ACMMM", "MMFood"]
+  primary_track: multimodal_food
+  secondary_tracks: 
+    - knowledge_graph
   urls:
     arxiv: "https://arxiv.org/abs/2509.04159"
     pdf: "https://arxiv.org/pdf/2509.04159"
+    poster: 
 
 - title: "What's Not on the Plate? Rethinking Food Computing through Indigenous Indian Datasets"
   year: 2025
+  authors: "Pamir Gogoi • Neha Joshi • Ayushi Pandey • Deepthi Sudharsan • Saransh Kumar Gupta • Lipika Dey • Partha Pratim Das • Kalika Bali • Vivek Seshadri"
+  conference: "ACM Multimedia (ACMMM 2025): Multi-modal Food Computing Workshop (Dublin, Ireland)"
   tags: ["ACMMM", "MMFood"]
+  primary_track: food_atlas
+  secondary_tracks:
+    - multimodal_food
   urls:
     arxiv: "https://arxiv.org/abs/2509.16286"
     pdf: "https://arxiv.org/pdf/2509.16286"
+    poster: 
 
 - title: "Deciphering psycho-social effects of Eating Disorder: Analysis of Reddit Posts using LLMs and Topic Modeling"
   year: 2024
+  authors: "Medini Chopra • Anindita Chatterjee • Lipika Dey • Partha Pratim Das"
+  conference: "Empirical Methods in Natural Language Processing (EMNLP 2024): International Workshop on Natural Language Processing for Digital Humanities (Florida, USA)"
   tags: ["EMNLP", "NLP4DH"]
+  primary_track: health_research
+  secondary_tracks:
+    - knowledge_dissemination
   urls:
     article: "https://aclanthology.org/2024.nlp4dh-1.15/"
     pdf: "https://aclanthology.org/2024.nlp4dh-1.15.pdf"
 
 - title: "Enhancing FKG.in: automating Indian food composition analysis"
   year: 2024
+  authors: "Saransh Kumar Gupta • Lipika Dey • Partha Pratim Das • Geeta Trilok-Kumar • Ramesh Jain"
+  conference: "International Conference on Pattern Recognition (ICPR 2024): Multimedia Assisted Dietary Management Workshop (Kolkata, India)"
   tags: ["ICPR", "MADiMa"]
+  primary_track: multimodal_food
+  secondary_tracks:
+    - knowledge_graph
+    - health_research
   urls:
     article: "https://link.springer.com/chapter/10.1007/978-3-031-88217-3_6"
     arxiv: "https://arxiv.org/abs/2412.05248"
     pdf: "https://arxiv.org/pdf/2412.05248"
+    poster: "/assets/pdfs/MADiMa_poster.pdf"
 
 - title: "Building FKG.in: A Knowledge Graph for Indian Food"
   year: 2024
+  authors: "Saransh Kumar Gupta • Lipika Dey • Partha Pratim Das • Ramesh Jain"
+  conference: "Formal Ontology in Information Systems (FOIS 2024): Integrated Food Ontology Workshop"
   tags:
     - "FOIS"
     - "IFOW"
+  primary_track: knowledge_graph
+  secondary_tracks:
+    - multimodal_food
   urls:
     article: "https://ceur-ws.org/Vol-3882/"
     pdf: "https://ceur-ws.org/Vol-3882/ifow-4.pdf"
     arxiv: "https://arxiv.org/abs/2409.00830"
 
+- title: "Building a Knowledge Graph for Indian Food"
+  year: 2024
+  authors: "Saransh Kumar Gupta • Lipika Dey • Partha Pratim Das • Ramesh Jain"
+  conference: "Symposium on Big Data Algorithms for Biology (IISc Bengaluru)"
+  tags:
+    - "BDBio"
+  primary_track: knowledge_graph
+  secondary_tracks:
+    - multimodal_food
+  display: false
+  urls:
+    poster: "/assets/pdfs/BDBio_poster.pdf"
+
 - title: "Markers of chronic disease risk in term low birthweight Indian children aged 8–14 years"
   year: 2024
+  authors: "Yamini Gusain • Anku Malik • Suzanne Filteau • Renuka Pathak • Harshpal Singh Sachdev • Geeta Trilok-Kumar"
+  conference: "Journal - Frontiers in Pediatrics 2024: Children and Health Section"
   tags: ["Frontiers in Pediatrics"]
+  primary_track:
+    - health_research
   urls:
     article: "https://www.frontiersin.org/journals/pediatrics/articles/10.3389/fped.2024.1339808/full"
 
 - title: "Efficacy of early enteral feeding with supplemented mother's milk on postoperative outcomes of cardiac surgical infants: A randomized controlled trial"
   year: 2024
+  authors: "Anuradha Singal • Manoj Kumar Sahu • Geeta Trilok-Kumar • Bani Tamber Aeri • Mala Manral • Anuja Agarwala • Shivam Pandey"
+  conference: "Journal - Annals of Pediatric Cardiology 2024"
   tags: ["APC"]
+  primary_track:
+    - health_research
   urls:
     article: "https://pubmed.ncbi.nlm.nih.gov/39830487/"
 
 - title: "Dietary patterns of Indian school-aged children and associations with markers of chronic disease risk"
   year: 2023
+  authors: "Geeta Trilok-Kumar • Anku Malik • Yamini Gusain • Eve Millerot • Renuka Pathak • Suzanne Filteau"
+  conference: "Journal - Food Science & Nutrition 2023"
   tags: ["FSN"]
+  primary_track: food_systems
+  secondary_tracks:
+    - health_research
   urls:
     article: "https://onlinelibrary.wiley.com/doi/full/10.1002/fsn3.3631"
 
 - title: "Longitudinal Growth and Undernutrition Burden Among Term Low Birth Weight Newborns Reared in Adverse Socioeconomic Conditions in Delhi"
   year: 2023
+  authors: "Manpreet Kaur • Geeta Trilok-Kumar • Sikha Sinha • Suzanne Filteau • Anura V. Kurpad • Clive Osmond • Harshpal Singh Sachdev"
+  conference: "Journal - Indian Pediatrics 2023"
   tags: ["Indian Pediatrics"]
+  primary_track: food_atlas
+  secondary_tracks:
+    - health_research
   urls:
     article: "https://link.springer.com/article/10.1007/s13312-023-3033-8"
 
 - title: "Food insecurity during Covid-19 pandemic among people residing in underprivileged areas of South Delhi"
   year: 2022
+  authors: "Yamini Gusain • Anku Malik • Sreelatha Narayanan • Nimisha Jalota • Rishu Thakur • Geeta Trilok-Kumar"
+  conference: "Journal - International Journal of Food and Nutritional Sciences 2022"
   tags: ["IJFANS"]
+  primary_track: food_atlas
+  secondary_tracks:
+    - food_systems
   urls:
     article: "https://ijfans.org/issue-content/food-insecurity-during-covid-19-pandemic-among-people-residing-in-underprivileged-areas-of-south-delhi-587"
 
 - title: "Long-term health after Severe Acute Malnutrition in children and adults - the role of the Pancreas (SAMPA): Protocol"
   year: 2022
+  authors: "Sana Ahmed • George PrayGod • Nanette R Lee • Paul Kelly • Geeta Trilok-Kumar • Molly Chisenga • Belinda Kweka • Daniel Faurholt-Jepsen • Rikke Krogh-Madsen • James AM Shaw • Dixi M Paglinawan-Modoc • Juan Solon • Mette Frahm Olsen • Darko Stefanovski • Sharon Cox • Dorothea Nitsch • Ruth Keogh • Suzanne Filteau"
+  conference: "Journal - Faculty of 1000 Research 2022"
   tags: ["F1000Research"]
+  primary_track:
+    - health_research
   urls:
     article: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9577280/"
 
 - title: "Food Consumption Pattern of Adolescents in Delhi-NCR Born Full Term with Low Birth Weight with Reference to the New Estimated Average Requirement (EAR)"
   year: 2021
+  authors: "Anku Malik • Yamini Gusain • Renuka Pathak • Geeta Trilok-Kumar"
+  conference: "Journal - Journal of Clinical and Diagnostic Research 2021"
   tags: ["JCDR"]
+  primary_track:
+    - health_research
   urls:
     article: "https://doi.org/10.7860/JCDR/2021/48505.15019"
 
 - title: "Suboptimal feeding and caring practices among young Indian children ages 12 to 24 mo living in the slums of New Delhi"
   year: 2020
+  authors: "Lisa A. Houghton • Deborah R. McIntosh • Geeta Trilok-Kumar • Jillian J. Haszard • Rosalind S. Gibson"
+  conference: "Journal - Nutrition 2020"
   tags: ["Nutrition"]
+  primary_track: food_atlas
+  secondary_tracks:
+    - food_systems
   urls:
     article: "https://www.sciencedirect.com/science/article/abs/pii/S0899900718304647"
 
 - title: "Status of Vitamin B12 among Healthy Adult and Elderly Population in India: A Review"
   year: 2020
+  authors: "Anku Malik • Geeta Trilok-Kumar"
+  conference: "Journal - Journal of Nutritional Science and Vitaminology 2020"
   tags: ["JNSV"]
+  primary_track: food_atlas
+  secondary_tracks:
+    - health_research
   urls:
     article: "https://www.jstage.jst.go.jp/article/jnsv/66/Supplement/66_S361/_article/-char/ja/"
 
 - title: "Vitamin E status in healthy population in Asia: A review of current literature"
   year: 2019
+  authors: "Anku Malik • Manfred Eggersdorfer • Geeta Trilok-Kumar"
+  conference: "Journal - International Journal for Vitamin and Nutrition Research 2019"
   tags: ["IJVNR"]
+  primary_track: food_atlas
+  secondary_tracks:
+    - health_research
   urls:
     article: "https://econtent.hogrefe.com/doi/full/10.1024/0300-9831/a000590"
 
 - title: "Zinc content of cereals and pulses in Delhi"
   year: 2018
+  authors: "Shipra Gupta • Kirti Arora • Geeta Trilok-Kumar"
+  conference: "Journal - Indian Journal of Nutrition and Dietetics 2018"
   tags: ["IJND"]
+  primary_track:
+    - food_systems
   urls:
     article: "https://informaticsjournals.co.in/index.php/ijnd/article/view/16049"
 
 - title: "Designing programs to improve diets for maternal and child health: estimating costs and potential dietary impacts of nutrition-sensitive programs in Ethiopia, Nigeria, and India"
   year: 2018
+  authors: "William A. Masters • Katherine L. Rosettie • Sarah Kranz • Goodarz Danaei • Patrick Webb • Dariush Mozaffarian • Global Nutrition and Policy Consortium"
+  conference: "Journal - Health Policy and Planning 2018"
   tags: ["Health Policy and Planning"]
+  primary_track:
+    - food_systems
   urls:
     article: "https://academic.oup.com/heapol/article/33/4/564/4924350"
 

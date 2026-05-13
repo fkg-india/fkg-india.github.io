@@ -9,6 +9,8 @@ sidebar:
 
 ---
 
+<b>Last Updated</b>: July 2025
+
 <div class="notice--danger">
   <h4>NCVPRIPG'25 RASOI Data Challenge [July 2025]</h4>
   <p><b>RASOI – Recognition and Segmentation of Indian Thali using AI</b> <a href="https://sites.google.com/view/rasoi-ncvpripg-2025/" target="_blank" class="alert-link">data challenge</a> was hosted by FoodComputing@Ashoka along with NCVPRIPG 20025 at National Institute of Technology Srinagar from 16th to 18th July 2025. The main themes of the challenge were object detection, food classification, and total calorie estimation.</p>

@@ -42,13 +42,16 @@ brf:
   - image_path: /assets/images/gallery/brf-5.jpg
     
 ---
-
-{% include feature_row id="ashoka_expo" %}
-
-{% include feature_row id="icpr" %}
-
-{% include feature_row id="bdbio" type="left" %}
+{% include feature_row id="brf" %}
 
 {% include feature_row id="icpr_zoom" type="right" %}
 
-{% include feature_row id="brf" %}
+{% include feature_row id="bdbio" type="left" %}
+
+{% include feature_row id="icpr" %}
+
+{% include feature_row id="ashoka_expo" %}
+
+
+
+

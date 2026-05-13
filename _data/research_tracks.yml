@@ -1,0 +1,29 @@
+knowledge_graph:
+  name: "Food Knowledge Graph"
+  short_name: "Representation"
+  link: "/research/#food-knowledge-graph"
+
+health_research:
+  name: "Diet-based Health Research & Analysis"
+  short_name: "Health"
+  link: "/research/#diet-based-health-research-analysis"
+
+multimodal_food:
+  name: "Multimodal & AI Food Solutions"
+  short_name: "Intelligence"
+  link: "/research/#multimodal-ai-food-solutions"
+
+food_atlas:
+  name: "Food Availability Atlas"
+  short_name: "Accessibility"
+  link: "/research/#food-availability-atlas"
+
+food_systems:
+  name: "Nutriagroeconomy & Agroecology"
+  short_name: "Sustainability"
+  link: "/research/#nutriagroeconomy-agroecology"
+
+knowledge_dissemination:
+  name: "Food Knowledge Dissemination"
+  short_name: "Engagement"
+  link: "/research/#food-knowledge-dissemination"

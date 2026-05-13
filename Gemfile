@@ -12,4 +12,8 @@ group :jekyll_plugins do
   gem "jemoji"
   gem "jekyll-include-cache"
   gem "jekyll-algolia"
+  gem 'faraday-retry'
+  gem 'fiddle'
+  gem 'ostruct'
+  gem "wdm", ">= 0.1.0" if Gem.win_platform?
 end
