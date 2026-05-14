@@ -21,10 +21,10 @@ sidebar:
          style="width: 100%; height: auto; border-radius: 8px; cursor: zoom-in;">
   </a>
 
-  <a href="/assets/images/events/food_alignment_forum-26/FAF_1.jpeg"
+  <a href="/assets/images/events/food_alignment_forum-26/faf_1.jpeg"
      target="_blank"
      style="width: 49%;">
-    <img src="/assets/images/events/food_alignment_forum-26/FAF_1.jpeg"
+    <img src="/assets/images/events/food_alignment_forum-26/faf_1.jpeg"
          style="width: 100%; height: auto; border-radius: 8px; cursor: zoom-in;">
   </a>
 </div>

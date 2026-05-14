@@ -76,15 +76,15 @@ infuse25:
     excerpt: "INFUSE Innovation Summit, ICMR-NIN, Hyderabad (IN) [Dec. 2025]"
 
 faf26:
-  - image_path: /assets/images/events/food_alignment_forum-26/FAF_1.jpeg
-  - image_path: /assets/images/events/food_alignment_forum-26/FAF_2.jpg
-  - image_path: /assets/images/events/food_alignment_forum-26/FAF_3.jpg
-  - image_path: /assets/images/events/food_alignment_forum-26/FAF_4.jpg
-  - image_path: /assets/images/events/food_alignment_forum-26/FAF_5.jpg
-  - image_path: /assets/images/events/food_alignment_forum-26/FAF_6.jpg
-  - image_path: /assets/images/events/food_alignment_forum-26/FAF_7.jpg
-  - image_path: /assets/images/events/food_alignment_forum-26/FAF_8.jpg
-  - image_path: /assets/images/events/food_alignment_forum-26/FAF_9.jpg
+  - image_path: /assets/images/events/food_alignment_forum-26/faf_1.jpeg
+  - image_path: /assets/images/events/food_alignment_forum-26/faf_2.jpg
+  - image_path: /assets/images/events/food_alignment_forum-26/faf_3.jpg
+  - image_path: /assets/images/events/food_alignment_forum-26/faf_4.jpg
+  - image_path: /assets/images/events/food_alignment_forum-26/faf_5.jpg
+  - image_path: /assets/images/events/food_alignment_forum-26/faf_6.jpg
+  - image_path: /assets/images/events/food_alignment_forum-26/faf_7.jpg
+  - image_path: /assets/images/events/food_alignment_forum-26/faf_8.jpg
+  - image_path: /assets/images/events/food_alignment_forum-26/faf_9.jpg
     excerpt: "Food Alignment Forum, Ashoka University (IN) [Feb. 2026]"
 
 ---

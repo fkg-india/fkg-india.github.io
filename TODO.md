@@ -9,7 +9,7 @@
 - Ask for updates in team
 
 ## Research
-- Add publication filters
+- Add publication filters - search by research track
 - Add theme icons
 - Add posters for MMFood publications
 - Ask for research updates to team
