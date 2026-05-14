@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "<p style='font-size: 0.8em;'>Events</p>"
-permalink: /library/events/
+permalink: /events/
 classes: single
 toc: true
 sidebar:
@@ -14,17 +14,17 @@ sidebar:
 #### Food Alignment Forum 2026
 
 <div style="display: flex; gap: 10px; margin: 15px 0; flex-wrap: wrap;">
-  <a href="/assets/images/events/Food Alignment Forum 2026/FAF_poster.png"
+  <a href="/assets/images/events/food_alignment_forum-26/faf_poster.png"
      target="_blank"
      style="width: 49%;">
-    <img src="/assets/images/events/Food Alignment Forum 2026/FAF_poster.png"
+    <img src="/assets/images/events/food_alignment_forum-26/faf_poster.png"
          style="width: 100%; height: auto; border-radius: 8px; cursor: zoom-in;">
   </a>
 
-  <a href="/assets/images/events/Food Alignment Forum 2026/FAF_1.jpeg"
+  <a href="/assets/images/events/food_alignment_forum-26/FAF_1.jpeg"
      target="_blank"
      style="width: 49%;">
-    <img src="/assets/images/events/Food Alignment Forum 2026/FAF_1.jpeg"
+    <img src="/assets/images/events/food_alignment_forum-26/FAF_1.jpeg"
          style="width: 100%; height: auto; border-radius: 8px; cursor: zoom-in;">
   </a>
 </div>

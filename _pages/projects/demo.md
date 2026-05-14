@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "<p style='font-size: 0.8em;'>Demo</p>"
-permalink: /library/demo/
+permalink: /projects/demo/
 toc: false
 sidebar:
   nav: sidebar

@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "<p style='font-size: 0.8em'>FKG.in: Knowledge Graph for Indian food</p>"
-permalink: /library/fkg-in/
+permalink: /projects/fkg-in/
 toc: false
 sidebar:
   nav: sidebar

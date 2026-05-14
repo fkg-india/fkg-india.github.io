@@ -6,24 +6,62 @@
   {% assign feature_row = page.feature_row %}
 {% endif %}
 
+{% assign is_team = include.variant == "team" %}
+{% assign is_partnerships = include.variant == "partnerships" %}
+
 <style>
   .feature__wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+
+    {% if include.variant == "partnerships" %}
+
+      grid-template-columns: 1fr 1fr;
+      width: 100%;
+
+    {% else %}
+
+      grid-template-columns: repeat(auto-fit, minmax(240px, max-content));
+
+    {% endif %}
+
     gap: 36px;
+
     margin-top: 24px;
+
+    background: #d1e1e3;
+    padding: 10px 8px;
   }
 
   .feature__item {
     background: transparent;
     border: none;
     box-shadow: none;
+
     padding: 10px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    box-sizing: border-box;
+
+    {% if include.variant == "partnerships" %}
+      width: 100%;
+      max-width: none;
+    {% else %}
+      max-width: 320px;
+    {% endif %}
   }
+
+  {% if is_team %}
+  .archive__item-title {
+    min-height: 28px;
+  }
+
+  .archive__item-subtitle {
+    min-height: 34px;
+  }
+  {% endif %}
 
   .archive__item {
     display: flex;
@@ -31,31 +69,47 @@
     align-items: center;
   }
 
-  .archive__item-body {
-    height: 180px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
+  {% if include.variant == "partnerships" %}
+    .archive__item {
+      width: 100%;
+    }
+  {% endif %}
 
   .archive__item-teaser {
     position: relative;
-    order: 2;
     margin-top: 18px;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+
     overflow: hidden;
+
     display: flex;
     justify-content: center;
     align-items: center;
+
     background: #eee;
   }
 
+  .archive__item-teaser.circular {
+    border-radius: 50%;
+  }
+
+  .archive__item-teaser.partnerships {
+    border-radius: 12px;
+    background: white;
+    padding: 14px;
+  }
+
+  .archive__item-description {
+    margin-top: 6px;
+    font-size: 10px;
+    line-height: 1.4;
+    font-style: italic;
+    color: #666;
+    max-width: 240px;
+  }
+
   .archive__item-teaser img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
   }
 
   .archive__item-title {
@@ -84,6 +138,13 @@
     text-align: center;
   }
 
+  .archive__item-header {
+    height: {% if is_team %}80px{% else %}150px{% endif %};
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
   .research-question {
     color: #b70100;
     font-weight: 500;
@@ -91,9 +152,80 @@
   }
 
   .btn-container {
-    margin-top: 14px;
+    margin-top: 10px;
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    flex-wrap: wrap;
   }
-  
+
+  .btn-container .btn {
+    padding: 4px 10px !important;
+    font-size: 0.7rem !important;
+    line-height: 1.2 !important;
+    border-radius: 5px !important;
+  }
+
+  .thesis-row {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    gap: 24px;
+
+    width: 100%;
+    padding: 14px 0;
+
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+  }
+
+  .thesis-name {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.35;
+  }
+
+  .thesis-role {
+    font-size: 11px;
+    color: #666;
+    margin-top: 3px;
+  }
+
+  .thesis-project {
+    font-size: 11px;
+    line-height: 1.6;
+    color: #333;
+  }
+
+  .thesis-row {
+    display: grid;
+    grid-template-columns: 90px 240px 1fr;
+    gap: 20px;
+
+    align-items: center;
+
+    width: 100%;
+    padding: 18px 0;
+
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+  }
+
+  .thesis-image {
+    width: 100px;
+    height: 100px;
+
+    border-radius: 50%;
+    overflow: hidden;
+
+    background: #eee;
+
+    flex-shrink: 0;
+  }
+
+  .thesis-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
   .popup {
     visibility: hidden;
     opacity: 0;
@@ -112,6 +244,9 @@
 
   .popup-content {
     background: white;
+    font-size: 0.82rem;
+    line-height: 1.65;
+    color: #333;
     width: 80%;
     max-width: 500px;
     max-height: 70vh;
@@ -127,57 +262,172 @@
   {% for f in feature_row %}
     {% assign popup_id = "popup-" | append: f.title | slugify %}
     
-    <div class="feature__item">
-      <div class="archive__item">
+    {% if f.layout == "thesis" %}
+      <div class="thesis-row">
 
         {% if f.image_path %}
-          <div class="archive__item-teaser">
+          <div class="thesis-image">
             <img 
               src="{% if f.image_path contains '://' %}{{ f.image_path }}{% else %}{{ f.image_path | relative_url }}{% endif %}" 
-              alt="{{ f.alt | default: 'Feature image' }}" 
-              style="
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                cursor: pointer;"
-            >
-
-            {% if f.image_caption %}
-              <span class="archive__item-caption">
-                {{ f.image_caption | markdownify | remove: "<p>" | remove: "</p>" }}
-              </span>
-            {% endif %}
+              alt="{{ f.alt | default: 'Profile image' }}">
           </div>
+        {% else %}
+          <div></div>
         {% endif %}
-        <div class="archive__item-body">
-          {% if f.title %}
-            <h2 class="archive__item-title">{{ f.title }}</h2>
-          {% endif %}
 
-          {% if f.subtitle %}
-            <div class="archive__item-subtitle">
-              {{ f.subtitle | markdownify | remove: "<p>" | remove: "</p>" }}
+        <div>
+          <div class="thesis-name">
+            {{ f.title }}
+          </div>
+
+          <div class="thesis-role">
+            {{ f.subtitle }}
+          </div>
+        </div>
+
+        <div class="thesis-project">
+          {{ f.project }}
+        </div>
+
+      </div>
+
+    {% else %}
+      <div class="feature__item">
+        <div class="archive__item">
+
+          <div class="archive__item-header">
+
+            {% if f.title %}
+              <h2 class="archive__item-title">{{ f.title }}</h2>
+            {% endif %}
+
+            {% if f.subtitle %}
+              <div class="archive__item-subtitle">
+                {{ f.subtitle | markdownify | remove: "<p>" | remove: "</p>" }}
+              </div>
+            {% endif %}
+
+          </div>
+
+          {% if f.image_path %}
+            {% if is_team %}
+              {% assign image_size = f.size | default: '170px' %}
+              {% assign image_fit = 'cover' %}
+
+            {% elsif include.variant == "partnerships" %}
+              {% assign image_size = f.size | default: '170px' %}
+              {% assign image_fit = 'scale-down' %}
+
+            {% else %}
+              {% assign image_size = '150px' %}
+              {% assign image_fit = 'cover' %}
+            {% endif %}
+
+            <div
+              class="archive__item-teaser {% if include.variant == 'partnerships' %}partnerships{% else %}circular{% endif %}"              style="
+                width:
+                  {% if include.variant == "partnerships" %}
+                    auto
+                  {% else %}
+                    {{ image_size }}
+                  {% endif %};
+
+                height:
+                  {% if include.variant == "partnerships" %}
+                    140px
+                  {% else %}
+                    {{ image_size }}
+                  {% endif %};
+
+                padding:
+                  {% if include.variant == "partnerships" %}
+                    14px
+                  {% else %}
+                    0
+                  {% endif %};
+
+                border-radius:
+                  {% if include.variant == "partnerships" %}
+                    12px
+                  {% else %}
+                    50%
+                  {% endif %};
+              ">
+
+              <img 
+                src="{% if f.image_path contains '://' %}{{ f.image_path }}{% else %}{{ f.image_path | relative_url }}{% endif %}" 
+                alt="{{ f.alt | default: 'Feature image' }}"
+                style="
+                  width:
+                    {% if include.variant == "partnerships" %}
+                      auto
+                    {% else %}
+                      100%
+                    {% endif %};
+
+                  height:
+                    {% if include.variant == "partnerships" %}
+                      auto
+                    {% else %}
+                      100%
+                    {% endif %};
+
+                  max-width: 100%;
+                  max-height: 100%;
+
+                  object-fit: {{ image_fit }};
+                  cursor: pointer;"
+              >
+
+              {% if f.image_caption %}
+                <span class="archive__item-caption">
+                  {{ f.image_caption | markdownify | remove: "<p>" | remove: "</p>" }}
+                </span>
+              {% endif %}
             </div>
           {% endif %}
 
           <div class="btn-group btn-container">
+
             {% if f.btn_label_1 %}
-              <a href="#" class="btn btn-danger btn-sm" role="button" onclick="openPopup('{{ popup_id }}'); event.preventDefault();">
+              <a href="#"
+                  class="btn btn-danger btn-sm"
+                  role="button"
+                  onclick="openPopup('{{ popup_id }}'); event.preventDefault();">
                 {{ f.btn_label_1 | default: "Bio" }}
               </a>
             {% endif %}
 
             {% if f.url %}
-              <a href="{{ f.url | relative_url }}" target="_blank" class="btn btn-danger btn-sm" role="button">
-                <i class="fa-solid fa-link"></i> {{ f.btn_label_2 | default: "Learn More" }}
+              <a href="{{ f.url | relative_url }}"
+                  target="_blank"
+                  class="btn btn-danger btn-sm"
+                  role="button">
+                <i class="fa-solid fa-link"></i>
+                {{ f.btn_label_2 | default: "Learn More" }}
               </a>
             {% endif %}
+
           </div>
 
           {% if f.excerpt %}
             <div id="{{ popup_id }}" class="popup">
               <div class="popup-content">
-                <h2>About</h2>
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px;">
+                  <h2 style="color:#b70100; margin:0;">About</h2>
+
+                  <button
+                    onclick="closePopup('{{ popup_id }}')"
+                    style="
+                      background:none;
+                      border:none;
+                      font-size:1.2rem;
+                      cursor:pointer;
+                      color:#666;
+                    ">
+                    ✕
+                  </button>
+                </div>
                 <div class="archive__item-excerpt">
                   {{ f.excerpt | markdownify }}
                 </div>
@@ -189,7 +439,7 @@
           {% endif %}
         </div>
       </div>
-    </div>
+    {% endif %}
   {% endfor %}
 </section>
 
@@ -215,4 +465,20 @@
       closePopup(event.target.id);
     }
   });
+
+  document.addEventListener('keydown', function(event) {
+
+  if (event.key === 'Escape') {
+
+    document.querySelectorAll('.popup').forEach(function(popup) {
+      popup.style.opacity = '0';
+
+      setTimeout(() => {
+        popup.style.visibility = 'hidden';
+      }, 300);
+    });
+
+  }
+
+});
 </script>
