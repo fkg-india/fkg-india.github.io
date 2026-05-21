@@ -151,19 +151,30 @@
     line-height: 1.6;
   }
 
-  .btn-container {
+  .team-buttons {
     margin-top: 10px;
     display: flex;
     gap: 6px;
     justify-content: center;
-    flex-wrap: wrap;
+    align-items: center;
+    flex-wrap: nowrap;
   }
 
-  .btn-container .btn {
-    padding: 4px 10px !important;
-    font-size: 0.7rem !important;
-    line-height: 1.2 !important;
-    border-radius: 5px !important;
+  .team-btn {
+    background-color: #b30000 !important;
+    color: #fff !important;
+    padding: 4px 10px;
+    font-size: 0.6em;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.15s ease;
+  }
+
+  .pub-btn:hover {
+    background-color: #8f0000;
+    color: #fff !important;
+    text-decoration: none;
   }
 
   .thesis-row {
@@ -311,11 +322,11 @@
 
           {% if f.image_path %}
             {% if is_team %}
-              {% assign image_size = f.size | default: '170px' %}
+              {% assign image_size = f.size | default: '150px' %}
               {% assign image_fit = 'cover' %}
 
             {% elsif include.variant == "partnerships" %}
-              {% assign image_size = f.size | default: '170px' %}
+              {% assign image_size = f.size | default: '150px' %}
               {% assign image_fit = 'scale-down' %}
 
             {% else %}
@@ -334,7 +345,7 @@
 
                 height:
                   {% if include.variant == "partnerships" %}
-                    140px
+                    100px
                   {% else %}
                     {{ image_size }}
                   {% endif %};
@@ -387,11 +398,11 @@
             </div>
           {% endif %}
 
-          <div class="btn-group btn-container">
+          <div class="team-buttons">
 
             {% if f.btn_label_1 %}
               <a href="#"
-                  class="btn btn-danger btn-sm"
+                  class="team-btn"
                   role="button"
                   onclick="openPopup('{{ popup_id }}'); event.preventDefault();">
                 {{ f.btn_label_1 | default: "Bio" }}
@@ -401,7 +412,7 @@
             {% if f.url %}
               <a href="{{ f.url | relative_url }}"
                   target="_blank"
-                  class="btn btn-danger btn-sm"
+                  class="team-btn"
                   role="button">
                 <i class="fa-solid fa-link"></i>
                 {{ f.btn_label_2 | default: "Learn More" }}

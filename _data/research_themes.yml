@@ -29,7 +29,7 @@ knowledge_graph:
     subtitle: "Mining and curation of multilingual recipe data using speech to text conversion from Indian cooking videos on platforms like YouTube"
     image_caption: "freepik"
 
-health_research:
+dietary_health:
   - image_path: /assets/images/research/wellbeing.jpg
     title: "Ashoka Cohort for Health and Wellbeing"
     subtitle: "Studying the determinants of health and well-being at Ashoka University"

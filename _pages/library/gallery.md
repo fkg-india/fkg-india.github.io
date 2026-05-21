@@ -66,7 +66,7 @@ ashoka_expo25:
 ramesh_ashoka25:
   - image_path: /assets/images/gallery/ramesh25-1.jpg
   - image_path: /assets/images/gallery/ramesh25-2.jpg
-    excerpt: "Prof. Ramesh Jain discussing his vision on ‘Personal Care Utility (PCU) for India’ with the Computer Science students and Phd scholars, Ashoka University [Nov. 2024]"
+    excerpt: "Prof. Ramesh Jain discussing his vision on ‘Personal Care Utility (PCU) for India’ with the Computer Science students and PhD scholars, Ashoka University [Nov. 2024]"
 
 infuse25:
   - image_path: /assets/images/events/INFUSE Innovation Summit 2025/INFUSE_1.JPG

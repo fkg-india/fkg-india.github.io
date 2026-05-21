@@ -16,7 +16,7 @@ join-us_logo:
     image_caption: "wallpaperaccess"
 ---
 
-> <p style="font-size: 0.9em;">At the heart of what we do is a commitment to fostering knowledge exchange and collective progress. We believe that collaboration is key to solving today’s challenges, and your input is valuable in helping us move forward. Whether you represent an academic institution, an industry partner, or are an individual with a passion for innovation, we welcome your engagement. Our team is dedicated to creating impactful solutions and would love to explore how we can work together to achieve shared goals. Don't hesitate to reach out – let’s make a difference together.</p>
+> <p style="font-size: 0.8em;">Collaboration is key to solving today’s challenges and your input is valuable in helping us move forward. Whether you represent an academic institution, an industry partner, or are an individual with a passion for innovation, we welcome your engagement. We are dedicated to creating impactful solutions and would love to explore how to achieve shared goals. Let’s make a difference together.</p>
 
 <hr>
 

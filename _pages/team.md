@@ -13,7 +13,7 @@ sidebar:
 
 <hr>
 
-> <p style="font-size: 0.9em;">The interdisciplinary team of FoodComputing@Ashoka consists of AI researchers, computer scientists, digital health experts, software developers, knowledge engineers, data scientists, food computing collaborators, and last but not least, eager students: </p>
+> <p style="font-size: 0.8em;">The interdisciplinary team of the Food Computing Lab consists of AI researchers, computer scientists, digital health experts, software developers, knowledge engineers, data scientists, food computing collaborators, and last but not least, curious students. </p>
 
 <hr>
 
@@ -46,9 +46,19 @@ sidebar:
 
 ### Students and Interns
 
+#### Experiential Learning Module (2025-26)
+<div class="section-indent research-question">
+  {% include feature_row_custom items=site.data.team.yif26_elm variant="team" %}
+</div>
+
 #### Capstone Thesis (Spring'26)
 <div class="section-indent research-question">
   {% include feature_row_custom items=site.data.team.spring26_thesis variant="team" %}
+</div>
+
+#### NPTEL Projects (Spring'26)
+<div class="section-indent research-question">
+  {% include feature_row_custom items=site.data.team.spring26_nptel variant="team" %}
 </div>
 
 #### Interns (Monsoon'25 - Spring'26)   

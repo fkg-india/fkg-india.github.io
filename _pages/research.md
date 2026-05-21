@@ -13,7 +13,7 @@ sidebar:
 
 ---
 
-> <p style="font-size: 0.85em;">We engage in multiple research themes with the aim to improve our understanding of all things <b>food, data, and AI</b>. Our current research inquiries are broadly categorized as: </p>
+> <p style="font-size: 0.8em;">We engage in multiple research themes with the aim to improve our understanding of all things <b>food, data, and AI</b>. Our current research inquiries are broadly categorized as: </p>
 
 <hr>
 
@@ -37,11 +37,11 @@ sidebar:
   
 <div class="section-indent research-question">
   Can a holistic and context-aware <b>Personal Food Model</b> enable us to study the interplay of food with diet-based diseases, health, and well-being?
-  {% include feature_row_custom items=site.data.research_themes.health_research %}
+  {% include feature_row_custom items=site.data.research_themes.dietary_health %}
 </div>
 
 ###### &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-seedling"></i> <u> Contributions & Impact </u>
-{% assign hr_pubs = site.data.publications | where: "primary_track", "health_research" %}
+{% assign hr_pubs = site.data.publications | where: "primary_track", "dietary_health" %}
 {% include publication_grid.html items=hr_pubs %}
 
 

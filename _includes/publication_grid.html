@@ -34,7 +34,7 @@
             <a href="{{ url }}"
               target="_blank"
               rel="noopener noreferrer"
-              class="btn">
+              class="pub-btn">
               {{ label }}
             </a>
           {% endif %}
@@ -87,7 +87,7 @@
     margin-top: auto;
   }
 
-  .pub-buttons .btn {
+  .pub-btn {
     background-color: #b30000 !important;
     color: #fff !important;
     padding: 4px 10px;
@@ -96,10 +96,13 @@
     text-decoration: none;
     margin-right: 8px;
     display: inline-block;
+    transition: background-color 0.15s ease;
   }
 
-  .pub-buttons .btn:hover {
-    background-color: #b70001 !important;
+  .pub-btn:hover {
+    background-color: #8f0000;
+    color: #fff !important;
+    text-decoration: none;
   }
 
   @media (max-width: 768px) {

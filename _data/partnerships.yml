@@ -2,7 +2,7 @@ support:
   - image_path: /assets/images/logo/Mphasis Lab - Blue.png
     title: Mphasis AI & Applied Tech Lab at Ashoka
     subtitle: Funding
-    size: 170px
+    size: 150px
     excerpt: "The **Mphasis AI & Applied Tech Lab at Ashoka** is a distinguished collaboration between Mphasis and Ashoka University, exemplifying the synergy of industry and academia. Initiated in 2020, this collaboration has flourished, with the renewal of funding in 2023 underscoring the significance and continued commitment of both institutions to this partnership. The lab prides itself on its interdisciplinary approach, bridging various academic realms to offer a holistic perspective on computational challenges. With students and researchers hailing from diverse disciplines, the lab ensures computational learning remains accessible and impactful. This inclusive approach not only promotes diversity of thought but also encourages students and researchers to fuse their expertise, leading to groundbreaking solutions."
     url: "https://www.ashoka.edu.in/page/mphasis-lab/"
     btn_label_1: "About"
@@ -11,7 +11,7 @@ support:
   - image_path: /assets/images/about/cdsa.png
     title: Centre for Data Science and Analytics (CDSA)
     subtitle: Funding, Collaboration
-    size: 170px
+    size: 150px
     excerpt: "The **Centre for Data Science and Analytics (CDSA), Ashoka University** was established in July 2023 with the vision of providing a bridge for all researchers who undertake data-centric research activities at Ashoka University."
     url: "https://cdsa.ashoka.edu.in/hello/"
     btn_label_1: "About"
@@ -20,7 +20,7 @@ support:
   - image_path: /assets/images/logo/KCHDA - Blue.png
     title: Koita Centre for Digital Health at Ashoka (KCDH-A)
     subtitle: Funding, Collaboration
-    size: 170px
+    size: 150px
     excerpt: "The **Koita Centre for Digital Health at Ashoka (KCDH-A)** is an interdisciplinary Centre offering academic and research programmes aimed at advancing Digital Health."
     url: "https://www.ashoka.edu.in/page/koita-centre-for-digital-health-at-ashoka/"
     btn_label_1: "About"
@@ -29,7 +29,7 @@ support:
   - image_path: /assets/images/about/ifh.png
     title: UC Irvine - Institute for Future Health (IFH)
     subtitle: Collaboration
-    size: 170px
+    size: 150px
     excerpt: "The **UC Irvine - Institute for Future Health (IFH)** aims to integrate lifestyle, community, environment, and social factors with clinical knowledge to transform health systems."
     url: "https://futurehealth.uci.edu/"
     btn_label_1: "About"

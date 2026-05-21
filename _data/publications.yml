@@ -14,7 +14,7 @@
   authors: "Gautam Ahuja • Ayush Agarwal • Hara Prasad Mishra • Samagra Agrawal • Bableen Kaur • Siddhant Poudyal • Himani Balutia • Sagarika • Sanjana Ahuja • Partha Pratim Das • Ramesh Jain • Partha Pratim Chakrabarti • Anurag Agrawal • Govind K Makharia • Rintu Kutum"
   conference: "Neural Information Processing Systems (NeurIPS 2025): GenAI for Health Potential, Trust, and Policy Compliance Workshop (California, USA)"
   tags: ["NeurIPS", "GenAI4Health"]
-  primary_track: health_research
+  primary_track: dietary_health
   urls:
     openreview: "https://openreview.net/forum?id=c8QFEI1XBI"
     pdf: "/assets/pdfs/PRISM_paper.pdf"
@@ -29,7 +29,7 @@
     - food_systems
     - knowledge_graph
     - food_atlas
-    - health_research
+    - dietary_health
     - knowledge_dissemination
   urls:
     article: "https://dl.acm.org/doi/proceedings/10.1145/3746264"
@@ -78,7 +78,7 @@
   authors: "Medini Chopra • Anindita Chatterjee • Lipika Dey • Partha Pratim Das"
   conference: "Empirical Methods in Natural Language Processing (EMNLP 2024): International Workshop on Natural Language Processing for Digital Humanities (Florida, USA)"
   tags: ["EMNLP", "NLP4DH"]
-  primary_track: health_research
+  primary_track: dietary_health
   secondary_tracks:
     - knowledge_dissemination
   urls:
@@ -93,7 +93,7 @@
   primary_track: multimodal_food
   secondary_tracks:
     - knowledge_graph
-    - health_research
+    - dietary_health
   urls:
     article: "https://link.springer.com/chapter/10.1007/978-3-031-88217-3_6"
     arxiv: "https://arxiv.org/abs/2412.05248"
@@ -133,8 +133,7 @@
   authors: "Yamini Gusain • Anku Malik • Suzanne Filteau • Renuka Pathak • Harshpal Singh Sachdev • Geeta Trilok-Kumar"
   conference: "Journal - Frontiers in Pediatrics 2024: Children and Health Section"
   tags: ["Frontiers in Pediatrics"]
-  primary_track:
-    - health_research
+  primary_track: dietary_health
   urls:
     article: "https://www.frontiersin.org/journals/pediatrics/articles/10.3389/fped.2024.1339808/full"
 
@@ -143,8 +142,7 @@
   authors: "Anuradha Singal • Manoj Kumar Sahu • Geeta Trilok-Kumar • Bani Tamber Aeri • Mala Manral • Anuja Agarwala • Shivam Pandey"
   conference: "Journal - Annals of Pediatric Cardiology 2024"
   tags: ["APC"]
-  primary_track:
-    - health_research
+  primary_track: dietary_health
   urls:
     article: "https://pubmed.ncbi.nlm.nih.gov/39830487/"
 
@@ -155,7 +153,7 @@
   tags: ["FSN"]
   primary_track: food_systems
   secondary_tracks:
-    - health_research
+    - dietary_health
   urls:
     article: "https://onlinelibrary.wiley.com/doi/full/10.1002/fsn3.3631"
 
@@ -166,7 +164,7 @@
   tags: ["Indian Pediatrics"]
   primary_track: food_atlas
   secondary_tracks:
-    - health_research
+    - dietary_health
   urls:
     article: "https://link.springer.com/article/10.1007/s13312-023-3033-8"
 
@@ -186,8 +184,7 @@
   authors: "Sana Ahmed • George PrayGod • Nanette R Lee • Paul Kelly • Geeta Trilok-Kumar • Molly Chisenga • Belinda Kweka • Daniel Faurholt-Jepsen • Rikke Krogh-Madsen • James AM Shaw • Dixi M Paglinawan-Modoc • Juan Solon • Mette Frahm Olsen • Darko Stefanovski • Sharon Cox • Dorothea Nitsch • Ruth Keogh • Suzanne Filteau"
   conference: "Journal - Faculty of 1000 Research 2022"
   tags: ["F1000Research"]
-  primary_track:
-    - health_research
+  primary_track: dietary_health
   urls:
     article: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9577280/"
 
@@ -196,8 +193,7 @@
   authors: "Anku Malik • Yamini Gusain • Renuka Pathak • Geeta Trilok-Kumar"
   conference: "Journal - Journal of Clinical and Diagnostic Research 2021"
   tags: ["JCDR"]
-  primary_track:
-    - health_research
+  primary_track: dietary_health
   urls:
     article: "https://doi.org/10.7860/JCDR/2021/48505.15019"
 
@@ -219,7 +215,7 @@
   tags: ["JNSV"]
   primary_track: food_atlas
   secondary_tracks:
-    - health_research
+    - dietary_health
   urls:
     article: "https://www.jstage.jst.go.jp/article/jnsv/66/Supplement/66_S361/_article/-char/ja/"
 
@@ -230,7 +226,7 @@
   tags: ["IJVNR"]
   primary_track: food_atlas
   secondary_tracks:
-    - health_research
+    - dietary_health
   urls:
     article: "https://econtent.hogrefe.com/doi/full/10.1024/0300-9831/a000590"
 
@@ -239,8 +235,7 @@
   authors: "Shipra Gupta • Kirti Arora • Geeta Trilok-Kumar"
   conference: "Journal - Indian Journal of Nutrition and Dietetics 2018"
   tags: ["IJND"]
-  primary_track:
-    - food_systems
+  primary_track: food_systems
   urls:
     article: "https://informaticsjournals.co.in/index.php/ijnd/article/view/16049"
 
@@ -249,8 +244,7 @@
   authors: "William A. Masters • Katherine L. Rosettie • Sarah Kranz • Goodarz Danaei • Patrick Webb • Dariush Mozaffarian • Global Nutrition and Policy Consortium"
   conference: "Journal - Health Policy and Planning 2018"
   tags: ["Health Policy and Planning"]
-  primary_track:
-    - food_systems
+  primary_track: food_systems
   urls:
     article: "https://academic.oup.com/heapol/article/33/4/564/4924350"
 

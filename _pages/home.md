@@ -11,22 +11,28 @@ header:
   overlay_image: /assets/images/banner/food_banner_og.jpg
   caption: "wallpapers"
   actions:
-  - label: "<a href='/connect/' target='_blank' style='display: inline-block; padding: 10px 15px; background-color: transparent; color: white; text-decoration: none; border: 2px solid white; border-radius: 5px; font-weight: bold;' onmouseover='this.style.backgroundColor=\"white\"; this.style.color=\"black\"' onmouseout='this.style.backgroundColor=\"transparent\"; this.style.color=\"white\"'> <i class='fas fa-fw fa-link'></i> Internship Opportunities</a>"
-    url: "#"
-  - label: "<a href='https://mm-food.github.io/' target='_blank' style='display: inline-block; padding: 10px 15px; background-color: transparent; color: white; text-decoration: none; border: 2px solid white; border-radius: 5px; font-weight: bold;' onmouseover='this.style.backgroundColor=\"white\"; this.style.color=\"black\"' onmouseout='this.style.backgroundColor=\"transparent\"; this.style.color=\"white\"'> <i class='fas fa-fw fa-link'></i> ACM Multimedia: Multi-modal Food Computing 2025 (MMFood'25)</a>"
-    url: "#"
-  - label: "<a href='https://dl.acm.org/doi/proceedings/10.1145/3746264' target='_blank' style='display: inline-block; padding: 10px 15px; background-color: transparent; color: white; text-decoration: none; border: 2px solid white; border-radius: 5px; font-weight: bold;' onmouseover='this.style.backgroundColor=\"white\"; this.style.color=\"black\"' onmouseout='this.style.backgroundColor=\"transparent\"; this.style.color=\"white\"'> <i class='fas fa-fw fa-link'></i> ACM Multimedia: MMFood'25 Workshop Proceedings</a>"
-    url: "#"
-  - label: "<a href='/assets/resources/Poster_FCL.pdf' target='_blank' style='display: inline-block; padding: 10px 15px; background-color: transparent; color: white; text-decoration: none; border: 2px solid white; border-radius: 5px; font-weight: bold;' onmouseover='this.style.backgroundColor=\"white\"; this.style.color=\"black\"' onmouseout='this.style.backgroundColor=\"transparent\"; this.style.color=\"white\"'> <i class='fas fa-download'></i> Download Lab Poster</a>"
-    url: "#"
-  - label: "<a href='/library/events/' target='_blank' style='display: inline-block; padding: 10px 15px; background-color: transparent; color: white; text-decoration: none; border: 2px solid white; border-radius: 5px; font-weight: bold;' onmouseover='this.style.backgroundColor=\"white\"; this.style.color=\"black\"' onmouseout='this.style.backgroundColor=\"transparent\"; this.style.color=\"white\"'> <i class='fas fa-fw fa-link'></i> Lab Events</a>"
-    url: "#"
+  - label: "<i class='fas fa-calendar-alt'></i> Lab Events"
+    url: "/events/"
+
+  - label: "<i class='fas fa-download'></i> Download Lab Poster"
+    url: "/assets/resources/Poster_FCL.pdf"
+
+  - label: "<i class='fas fa-user-graduate'></i> Internship Opportunities"
+    url: "/connect/"
+  
+  - label: "<i class='fas fa-fw fa-book'></i> MMFood'25 Workshop Proceedings"
+    url: "https://dl.acm.org/doi/proceedings/10.1145/3746264"
+  
+  - label: "<i class='fas fa-fw fa-globe'></i> ACMMM2025: Multi-modal Food Computing"
+    url: "https://mm-food.github.io/"
+
+  
 excerpt: "Cooking humane, intelligent, scalable food solutions, <br> where <b>food</b>, <b>data</b>, & <b>AI</b> simmer into deliciously interdisciplinary research."
 permalink: /home
 
 banner_left:
   - image_path: /assets/images/banner/food_banner_alt.jpg
-    excerpt: "Welcome to the **Food Computing Lab**! We strive to deepen our understanding of food and its intricate connections, including but not limited to *recipes, cooking, well-being, nutrition, dietary practices, agriculture, agroecology, misinformation, and heritage* — particularly in the **Indian context**. Our work emphasizes the importance of understanding food not only as a source of sustenance and enjoyment, but also as a vital component of a healthy and sustainable lifestyle. <br> <br> On one front, we use novel AI-driven computational technologies to mine, curate and analyze data and relationships within food systems to uncover insights that enable *healthier eating habits, recipe generation, food recommendation, knowledge discovery, and informed decision-making*. On the other front, we investigate *systemic gaps in agrifood networks, examine food safety and policy frameworks, and document the vast yet underrepresented diversity of Indian culinary knowledge* — much of which remains undocumented or digitally low-resource — to foster equitable and sustainable food systems. <br> <br> To know more about our work, please browse the [research](/research/) section."
+    excerpt: "<div style='font-size: 0.6rem; line-height: 1.2;'>Welcome to the <b>Food Computing Lab</b>! We strive to deepen our understanding of food and its intricate connections, including but not limited to <i>recipes, cooking, well-being, nutrition, dietary practices, agriculture, agroecology, misinformation, and heritage</i> — particularly in the <b>Indian context</b>. Our work emphasizes the importance of understanding food not only as a source of sustenance and enjoyment, but also as a vital component of a healthy and sustainable lifestyle. <br> <br> On one front, we use novel <i>AI-driven computational technologies</i> to mine, curate and analyze data and relationships within food systems to uncover insights that enable <i>healthier eating habits, recipe generation, food recommendation, knowledge discovery, and informed decision-making</i>. On the other front, we investigate <i>systemic gaps in agrifood networks, examine food safety and policy frameworks, and document the vast yet underrepresented diversity of Indian culinary knowledge</i> — much of which remains undocumented or digitally low-resource — to foster equitable and sustainable food systems. <br> <br> <b>To know more about our work, please browse the <a href='/research/'>research</a> section.</b></div>"
     image_caption: unsplash
 ---
 
@@ -450,25 +456,62 @@ function renderPagination() {
 
 function normalize(s){ return (s||'').toString().toLowerCase(); }
 
+function buildTrackSearchText(p) {
+  const trackKeys = [
+    p.primary_track,
+    ...(Array.isArray(p.secondary_tracks)
+      ? p.secondary_tracks
+      : [])
+  ].filter(Boolean);
+
+  return trackKeys
+    .map(key => {
+      const track = TRACKS[key] || {};
+
+      return [
+        key.replace(/_/g, ' '),
+        track.name || '',
+        track.short_name || ''
+      ].join(' ');
+    })
+    .join(' ')
+    .toLowerCase();
+}
+
 search.addEventListener('input', () => {
   const q = normalize(search.value.trim());
+
   if (!q) {
-  filtered = PUBS.filter(p => p.display !== false);
-}
-  else filtered = PUBS.filter(p =>
-    p.display !== false &&
-    (
-      normalize(p.title).includes(q) ||
-      (p.tags && p.tags.join(' ').toLowerCase().includes(q)) ||
-      normalize(String(p.year || '')).includes(q) ||
-      normalize(p.conference || '').includes(q) ||
-      normalize(p.primary_track || '').includes(q) ||
-      (
-        Array.isArray(p.secondary_tracks) &&
-        p.secondary_tracks.join(' ').toLowerCase().includes(q)
-      )
-    )
-  );
+    filtered = PUBS.filter(p => p.display !== false);
+  } else {
+
+    filtered = PUBS.filter(p => {
+
+      const searchableTracks = buildTrackSearchText(p);
+
+      const searchableText = [
+        p.title || '',
+        p.year || '',
+        p.conference || '',
+        Array.isArray(p.tags)
+          ? p.tags.join(' ')
+          : '',
+        searchableTracks
+      ]
+      .join(' ')
+      .toLowerCase();
+
+      return (
+        p.display !== false &&
+        q.split(/\s+/)
+        .filter(Boolean)
+        .every(term =>
+          searchableText.includes(term)
+        )
+      );
+    });
+  }
+
   page = 1;
   renderTable();
   renderPagination();

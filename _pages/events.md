@@ -29,7 +29,7 @@ sidebar:
   </a>
 </div>
 
-<div style="font-size: 0.9em;">
+<div style="font-size: 0.8em;">
 <p>On 27th February 2026, the Food Computing Lab hosted <b>the inaugural Food Alignment Forum</b>. The Forum emerged from a shared recognition that many of India’s food-related challenges persist not due to a lack of research, innovation, policy effort, or investment, but because <b>food systems are fundamentally misaligned</b>. Goals across domains diverge; data and decision frameworks remain fragmented; incentives often reward short-term efficiency over long-term human and ecological wellbeing; and food is treated as a linear supply chain, despite functioning as a complex, non-linear ecosystem where biological impact, agricultural practice, individual choice, and institutional design are deeply intertwined. <b>The Food Alignment Forum was conceived as a space within Ashoka to begin bridging these fragments and treating food as an interconnected system.</b> By examining the decision logics embedded within different disciplines, institutions, and decision frameworks—what is optimized by default, which assumptions remain unexamined, which trade-offs remain invisible, and how constraints shape choices—the Forum sought to surface where misalignments occur and where new forms of representation, collaboration, and inquiry could help.</p>
 
 <p>Bringing together a small group of faculty and researchers from across the Ashoka community, the Forum enabled collective reflection on <b>food as a complex system spanning health, ecology, nutrition, agriculture, culture, markets, and policy</b>. While data, computation, and AI can offer new tools and perspectives, the most meaningful questions must emerge from deep disciplinary knowledge, lived experience, and sustained engagement with food systems across contexts. The Forum was therefore designed as an opportunity to listen, learn, and build understanding across disciplines, domains, and centres. <b>The day-long gathering featured 13 discipline- and centre-specific work and perspectives on food systems, unstructured conversations, a roundtable discussion to map misalignment, and a collective sensemaking session</b>. Rather than research presentations or solution proposals, the emphasis was on critical dialogue, interdisciplinary learning, and the cultivation of a sustained community that can identify collaborative directions for engaging with the multifaceted food challenges in the Indian context.</p>
@@ -54,7 +54,7 @@ sidebar:
 <br><br>
 
 <i class="fa-solid fa-landmark"></i>
-<b> Supported by: </b> <a href="/about/#acknowledgements-and-partnerships" target="_blank"><i>Mphasis AI & Applied Tech Lab at Ashoka, Centre for Data Science and Analytics (CDSA)</i></a>
+<b> Supported by: </b> <a href="/about/partnerships" target="_blank"><i>Mphasis AI & Applied Tech Lab at Ashoka, Centre for Data Science and Analytics (CDSA)</i></a>
 </div>
 
 <hr>
@@ -77,7 +77,7 @@ sidebar:
   </a>
 </div>
 
-<div style="font-size: 0.9em;">
+<div style="font-size: 0.8em;">
 
 <p>The Food Computing Lab was recognised with a <b>Promising Innovation Award</b> at the <a href="https://www.icmr.gov.in/icmrobject/uploads/WhatsNew/1759463963_infusebrochure2.pdf" target="_blank">Innovations in Nutrition & Food for Unified Solutions and Empowerment (INFUSE) Innovation Summit 2025</a> — organised by the <a href="https://nin.res.in/" target="_blank">Indian Council of Medical Research (ICMR)- National Institute of Nutrition</a>, Hyderabad, on 4th–5th December 2025.</p>
 
@@ -92,7 +92,7 @@ sidebar:
 </ul>
 
 <i class="fa-solid fa-landmark"></i>
-<b> Supported by: </b> <a href="/about/#acknowledgements-and-partnerships" target="_blank"><i>Koita Centre for Digital Health at Ashoka University (KCDH-A), Mphasis AI & Applied Tech Lab at Ashoka, Centre for Data Science and Analytics (CDSA)</i></a>
+<b> Supported by: </b> <a href="/about/partnerships" target="_blank"><i>Koita Centre for Digital Health at Ashoka University (KCDH-A), Mphasis AI & Applied Tech Lab at Ashoka, Centre for Data Science and Analytics (CDSA)</i></a>
 </div>
 
 <hr>
@@ -115,7 +115,7 @@ sidebar:
   </a>
 </div>
 
-<div style="font-size: 0.9em;">
+<div style="font-size: 0.8em;">
 <p>The <b>1st International Workshop on Multi-modal Food Computing (MMFood'25)</b> was be held in conjunction with the <b>33rd ACM International Conference on Multimedia (ACMMM25)</b> in <b>Dublin, Ireland</b>, on <b>28th October 2025</b>.</p>
 
 <p>This MMFood’25 workshop explored the intersection of AI, computer vision, natural language processing, and sensory modeling in understanding food. It aims to advance multimodal methods for food recognition, recommendation, and analysis, addressing challenges in health, nutrition, and sustainability. By bringing together researchers from AI, food science, health informatics, computational social science, and human-computer interaction (HCI), this workshop fosters interdisciplinary collaboration to drive innovation in multimodal food computing.</p>
@@ -164,7 +164,7 @@ The <b>call for papers</b> is <span style="color: red;">closed</span> now. More 
 </ul>
 
 <i class="fa-solid fa-landmark"></i>
-<b> Supported by: </b> <a href="https://www.sigmm.org/" target="_blank">ACM SIGMM - the Special Interest Group on Multimedia</a>, <a href="/about/#acknowledgements-and-partnerships" target="_blank"><i>Mphasis AI & Applied Tech Lab at Ashoka</i></a>
+<b> Supported by: </b> <a href="https://www.sigmm.org/" target="_blank">ACM SIGMM - the Special Interest Group on Multimedia</a>, <a href="/about/partnerships" target="_blank"><i>Mphasis AI & Applied Tech Lab at Ashoka</i></a>
 
 <!--
 <br>
@@ -186,7 +186,7 @@ Please download the <b>Call For Papers</b> and share in your circles. Thank you!
   </a>
 </div>
 
-<div style="font-size: 0.9em;">
+<div style="font-size: 0.8em;">
 <p>The <b>RASOI (Recognition and Segmentation of Indian Thali using AI)</b> Data Challenge was a national-level competition organized by the <b>Food Computing Lab</b> in collaboration with the <b>10th National Conference on Computer Vision, Pattern Recognition, Image Processing, and Graphics (NCVPRIPG 2025)</b>. It was held from <b>16th to 18th July 2025</b> at the <b>National Institute of Technology (NIT) Srinagar</b>, jointly organized with <b>IIT Jammu</b> and <b>NIT Jalandhar</b>.</p>
 
 <p>This challenge aimed to advance AI-driven food analysis by focusing on the visually complex and culturally diverse Indian Thali. Participants developed models to:
@@ -224,7 +224,7 @@ Please download the <b>Call For Papers</b> and share in your circles. Thank you!
 <br><br>
 
 <i class="fa-solid fa-landmark"></i>
-<b> Supported by: </b> <a href="/about/#acknowledgements-and-partnerships" target="_blank"><i>Koita Centre for Digital Health at Ashoka University (KCDH-A), Mphasis AI & Applied Tech Lab at Ashoka, Centre for Data Science and Analytics (CDSA)</i></a>
+<b> Supported by: </b> <a href="/about/partnerships" target="_blank"><i>Koita Centre for Digital Health at Ashoka University (KCDH-A), Mphasis AI & Applied Tech Lab at Ashoka, Centre for Data Science and Analytics (CDSA)</i></a>
 </div>
 
 <hr>
