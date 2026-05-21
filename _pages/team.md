@@ -46,19 +46,9 @@ sidebar:
 
 ### Students and Interns
 
-#### Experiential Learning Module (2025-26)
-<div class="section-indent research-question">
-  {% include feature_row_custom items=site.data.team.yif26_elm variant="team" %}
-</div>
-
 #### Capstone Thesis (Spring'26)
 <div class="section-indent research-question">
   {% include feature_row_custom items=site.data.team.spring26_thesis variant="team" %}
-</div>
-
-#### NPTEL Projects (Spring'26)
-<div class="section-indent research-question">
-  {% include feature_row_custom items=site.data.team.spring26_nptel variant="team" %}
 </div>
 
 #### Interns (Monsoon'25 - Spring'26)   
