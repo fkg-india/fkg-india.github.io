@@ -50,10 +50,10 @@ sidebar:
 
 <!--------------------------------->
 
-##### 3. Multimodal & AI Food Solutions
+##### 3. Multimodal & Agentic AI Food Solutions
 
 <div class="section-indent research-question">
-  Can we build <b>Multimodal & AI Food Solutions</b> tailored to Indian cuisine that combine visual, textual, and procedural understanding to enable intelligent food analysis, recipe generation, and data interpretation at scale?
+  Can we build <b>Multimodal and Agentic AI Food Solutions</b> tailored to Indian cuisine that combine visual, textual, and procedural understanding to enable intelligent food analysis, recipe generation, and data interpretation at scale?
   {% include feature_row_custom items=site.data.research_themes.multimodal_food %}
 </div>
 

@@ -38,6 +38,7 @@ sidebar:
 </div>
 
 ### Lab Alumni
+
 <div class="section-indent research-question">
   {% include feature_row_custom items=site.data.team.alumni variant="team" %}
 </div>
@@ -46,14 +47,34 @@ sidebar:
 
 ### Students and Interns
 
+#### Ongoing (Monsoon'25 - Present)   
+<div class="section-indent research-question">
+  {% include feature_row_custom items=site.data.team.monsoon25_present_interns variant="team" %}
+</div>
+
+#### Ashoka Interns (Summer'26)
+<div class="section-indent research-question">
+  {% include feature_row_custom items=site.data.team.summer26_interns variant="team" %}
+</div>
+
+#### NPTEL Interns (Summer'26)
+<div class="section-indent research-question">
+  {% include feature_row_custom items=site.data.team.summer26_nptel variant="team" %}
+</div>
+
+#### YIF Interns (Spring'26)
+<div class="section-indent research-question">
+  {% include feature_row_custom items=site.data.team.yif_26_elm variant="team" %}
+</div>
+
 #### Capstone Thesis (Spring'26)
 <div class="section-indent research-question">
   {% include feature_row_custom items=site.data.team.spring26_thesis variant="team" %}
 </div>
 
-#### Interns (Monsoon'25 - Spring'26)   
+#### NPTEL Interns (Monsoon'25 - Spring'26)
 <div class="section-indent research-question">
-  {% include feature_row_custom items=site.data.team.monsoon25_spring26_interns variant="team" %}
+  {% include feature_row_custom items=site.data.team.monsoon25_spring26_nptel variant="team" %}
 </div>
 
 #### Capstone Projects (Monsoon'25)
@@ -61,7 +82,7 @@ sidebar:
   {% include feature_row_custom items=site.data.team.monsoon25_capstone variant="team" %}
 </div>
 
-#### Interns (Summer'25)
+#### Ashoka Interns (Summer'25)
 <div class="section-indent research-question">
   {% include feature_row_custom items=site.data.team.summer25_interns variant="team" %}
 </div>
@@ -71,7 +92,7 @@ sidebar:
   {% include feature_row_custom items=site.data.team.spring25_thesis variant="team" %}
 </div>
 
-#### Interns (Spring'25)   
+#### Ashoka Interns (Spring'25)   
 <div class="section-indent research-question">
   {% include feature_row_custom items=site.data.team.spring25_interns variant="team" %}
 </div>
@@ -81,7 +102,7 @@ sidebar:
   {% include feature_row_custom items=site.data.team.monsoon24_capstone variant="team" %}
 </div>
 
-#### Interns (Summer'24)
+#### Ashoka Interns (Summer'24)
 <div class="section-indent research-question">
   {% include feature_row_custom items=site.data.team.summer24_interns variant="team" %}
 </div>
@@ -91,12 +112,12 @@ sidebar:
   {% include feature_row_custom items=site.data.team.monsoon23_course variant="team" %}
 </div>
 
-#### Interns (Summer'23)
+#### Ashoka Interns (Summer'23)
 <div class="section-indent research-question">
   {% include feature_row_custom items=site.data.team.summer23_interns variant="team" %}
 </div>
 
-#### Interns (Monsoon'22 - Spring'23)
+#### Ashoka Interns (Monsoon'22 - Spring'23)
 <div class="section-indent research-question">
   {% include feature_row_custom items=site.data.team.monsoon22_spring23_interns variant="team" %}
 </div>

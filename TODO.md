@@ -12,3 +12,6 @@
 - Add theme icons
 - Add posters for MMFood publications
 - Ask for research updates to team
+- add missing posters and lacking papers (e.g. springer, ceur)
+
+## Miscellaneous

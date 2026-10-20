@@ -87,9 +87,15 @@ faf26:
   - image_path: /assets/images/events/food_alignment_forum-26/faf_9.jpg
     excerpt: "Food Alignment Forum, Ashoka University (IN) [Feb. 2026]"
 
+iairo26:
+  - image_path: /assets/images/gallery/iairo-1.jpeg
+  - image_path: /assets/images/gallery/iairo-2.jpg
+  - image_path: /assets/images/gallery/iairo-3.jpeg
+  - image_path: /assets/images/gallery/iairo-4.jpeg
+    excerpt: "Digital Twins for Planetary Health Workshop, IIT Gandhinagar (IN) [Sept. 2026]"
 ---
 
-{% assign gallery_sets = "faf26,infuse25,ramesh_ashoka25,ashoka_expo25,mmfood25,summer25,brf25,icpr_zoom2024,icpr2024,ashoka_expo24,bdbio24" | split: "," %}
+{% assign gallery_sets = "iairo26,faf26,infuse25,ramesh_ashoka25,ashoka_expo25,mmfood25,summer25,brf25,icpr_zoom2024,icpr2024,ashoka_expo24,bdbio24" | split: "," %}
 
 <div class="gallery-page">
 

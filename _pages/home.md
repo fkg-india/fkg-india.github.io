@@ -14,6 +14,13 @@ header:
   - label: "<i class='fas fa-calendar-alt'></i> Lab Events"
     url: "/events/"
 
+  - label: "<i class='fas fa-calendar-alt'></i> Media Coverage 1"
+    url: "https://indianexpress.com/article/long-reads/how-ai-data-computational-gastronomy-redefining-flavour-pairings-10863553"
+
+  - label: "<i class='fas fa-calendar-alt'></i> Media Coverage 2"
+    url: "https://timesofindia.indiatimes.com/city/hyderabad/ai-driven-nutritional-solutions-steal-spotlight-at-infuse-summit/articleshow/125965546.cms"
+
+
   - label: "<i class='fas fa-download'></i> Download Lab Poster"
     url: "/assets/resources/Poster_FCL.pdf"
 
@@ -41,11 +48,22 @@ banner_left:
 </div>
 
 <hr>
-
 #### Announcements
+<div class="notice--warning">
+  <h4>Featured in The Indian Express</h4>
+  <p>Our work was recently featured in <em>The Indian Express</em>, in an article exploring how AI, data, and computational methods are reshaping our understanding of food.
+  <a href="https://indianexpress.com/article/long-reads/how-ai-data-computational-gastronomy-redefining-flavour-pairings-10863553" target="_blank">Read the full feature here →</a></p>
+</div>
+
+<div class="notice--success">
+  <h4>Featured in The Times of India</h4>
+  <p>Our work was featured in <em>The Times of India</em>, in an article discussing AI-driven nutritional solutions presented at the INFUSE (Innovations in Nutrition & Food for Unified Solutions and Empowerment) Innovation Summit 2025 — organised by Indian Council of Medical Research (ICMR)- National Institute of Nutrition, Hyderabad, on 4th–5th December 2025.
+  <a href="https://timesofindia.indiatimes.com/city/hyderabad/ai-driven-nutritional-solutions-steal-spotlight-at-infuse-summit/articleshow/125965546.cms" target="_blank">Read the full feature here →</a></p>
+</div>
+
 <div class="notice--danger">
   <h4>Internship Opportunities</h4>
-  <p>We are actively seeking enthusiastic and passionate students from all disciplines for internship. If you are interested in working with us, please fill the <a href='/connect/' target='_blank'>form</a> here or mail us directly at foodcomputing.ashoka@gmail.com to express your interest.</p>
+  <p>We are actively seeking students across disciplines for internship. If you are enthusiastic either about food or technology and interested in working with us, please fill the <a href='/connect/' target='_blank'>form</a> here or mail us directly at foodcomputing.ashoka@gmail.com to express your interest.</p>
 </div>
 
 <hr>

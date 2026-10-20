@@ -66,10 +66,28 @@ r_and_d:
 
   - image_path: /assets/images/people/saransh.jpeg
     title: Saransh Gupta
-    subtitle: Senior Software Developer and AI Researcher
+    subtitle: Senior Software Developer and Research Scholar
     size: 150px
-    excerpt: "**Saransh Gupta** is a senior research engineer and a PhD scholar in the Food Computing Lab at Ashoka University. He studied Computer Science and Finance at BITS Pilani and worked as a software engineer at Symantec Corporation for 2.5 years in the STAR (Security Technology and Response) team where his responsibilities included software R&D, optimizing the algorithmic flows, mitigating risks, and improving the efficacy of functional security products. His newfound research interests at the intersection of language, cognition, computation and society led him to pursue the Young India Fellowship and complete an interdisciplinary masters in Computer Science and Psychology, both at Ashoka University. His current work pertains to multimodal AI, system design, data mining, large-language models, natural language processing, and ontology design for building a knowledge graph for Indian food."
+    excerpt: "**TBD**"
     url: "https://www.ashoka.edu.in/profile/saransh-kumar-gupta/"
+    btn_label_1: "About"
+    btn_label_2: "Profile"
+
+  - image_path: /assets/images/people/sana.jpeg
+    title: Dr. Sana Ahmed
+    subtitle: Postdoctoral Research Fellow
+    size: 150px
+    excerpt: "**Sana Ahmed is a public health nutrition researcher with expertise in nutrition snd metabolic health research. She holds a Ph.D. in Food & Nutrition from the University of Delhi, where her doctoral research examined the influence of low birth weight on insulin sensitivity and β-cell function in adolescents. She is currently a Postdoctoral Fellow at the Koita Centre for Digital Health, Ashoka University. <br> Her expertise spans dietary assessment methodologies, metabolic health evaluation, and public health data analysis of large datasets using STATA and R. She has worked collaboratively with international researchers and institutions across Asia, Africa, Europe, and the United States on projects related to diabetes, malnutrition, and cardiovascular risk, authored several peer-reviewed publications, and presented her research at international conferences.  She is passionate about contributing to meaningful research in nutrition, food systems, and the prevention of diabetes and other chronic diseases.**"
+    url: "https://www.linkedin.com/in/sana-ahmed-739b99121/"
+    btn_label_1: "About"
+    btn_label_2: "Profile"
+
+  - image_path: /assets/images/people/manish_yadav.jpg
+    title: Manish Yadav
+    subtitle: Software Developer
+    size: 150px
+    excerpt: "**TBD**"
+    url: "https://www.ashoka.edu.in/profile/manish-yadav/"
     btn_label_1: "About"
     btn_label_2: "Profile"
 
@@ -156,16 +174,154 @@ collaborators:
     btn_label_2: "Profile"
 
 alumni:
-  - image_path: /assets/images/people/yamini.jpg
-    title: Dr. Yamini Gusain
-    subtitle: Associate Program Manager
-    size: 150px
-    excerpt: "TBD"
-    url: "https://www.linkedin.com/in/yamini-gusain-470a09ab/"
-    btn_label_1: "About"
-    btn_label_2: "Profile"
+- image_path: /assets/images/people/yamini.jpg
+  title: Dr. Yamini Gusain
+  subtitle: Medical, Public Health, and Digital Health Expert
+  size: 150px
+  excerpt: "TBD"
+  url: "https://www.linkedin.com/in/yamini-gusain-470a09ab/"
+  btn_label_1: "About"
+  btn_label_2: "Profile"
+
+monsoon25_present_interns:
+  - title: Nilesh Gupta
+    subtitle: M.Tech., Computer Science, IIT Kharagpur
+    image_path: /assets/images/students/nilesh_gupta.jpeg
+    project: "Reasoning with Food Knowledge Graphs - Tracing the Journey from Soil Health to Human Health"
+    layout: thesis
+
+  - title: Aarush Kumbhakern
+    subtitle: 4th year, Computer Science, Ashoka University
+    image_path: /assets/images/students/aarush.jpg
+    project: "Formalizing Textual Cooking Procedures as Action Graphs"
+    layout: thesis
+
+summer26_interns:
+  - title: Ansh Madan
+    subtitle: 4th year, Computer Science/Psychology
+    image_path: /assets/images/students/ansh.jpeg
+    size: 100px
+  
+  - title: Jahnavi Agrawal
+    subtitle: 4th year, Computer Science/Math/Economics
+    image_path: /assets/images/students/jahnavi.jpeg
+    size: 100px
+
+  - title: Aashray Malik
+    subtitle: 4th year, Computer Science/Entrepreneurship
+    image_path: /assets/images/students/aashray.jpg
+    size: 100px
+
+  - title: Yuvraj Verma
+    subtitle: 4th year, Math/Computer Science/Philosophy
+    image_path: /assets/images/students/yuvraj_verma.jpeg
+    size: 100px
+
+  - title: Sarthak Rathi
+    subtitle: 4th year, Computer Science/Astronomy/Entrepreneurship
+    image_path: /assets/images/students/sarthak.jpg
+    size: 100px
+
+  - title: Rishika Saxena
+    subtitle: 4th year, Economics/Finance/Environmental Studies
+    image_path: /assets/images/students/rishika.jpeg
+    size: 100px
+
+  - title: Akshadha Sharma
+    subtitle: 4th year, Computer Science
+    image_path: /assets/images/students/akshadha.jpeg
+    size: 100px
+
+  - title: Ribence Kadel
+    subtitle: 4th year, Computer Science
+    image_path: /assets/images/students/ribence_kadel.jpeg
+    size: 100px
+  
+  - title: Mannan Gupta
+    subtitle: 4th year, Math/Physics/Computer Science
+    image_path: /assets/images/students/mannan_gupta.jpeg
+    size: 100px
+
+  - title: Anushka Navaneeth
+    subtitle: 4th year, Politics, Philosophy and Economics/Environmental Studies/Sociology 
+    image_path: /assets/images/students/anushka.jpeg
+    size: 100px
+
+  - title: Vaibhavi Singhania
+    subtitle: 3rd year, Computer Science/Math/Physics
+    image_path: /assets/images/students/vaibhavi.jpeg
+    size: 100px
+
+  - title: Samyak Khobragade
+    subtitle: 3rd year, Computer Science/Entrepreneurship/Math/Biology
+    image_path: /assets/images/students/samyak.jpg
+    size: 100px
+
+  - title: Hebah Qamar
+    subtitle: 3rd year, Biology/Psychology
+    image_path: /assets/images/students/hebah.jpeg
+    size: 100px
+
+  - title: Maya Ribiero
+    subtitle: 3rd year, Sociology
+    image_path: /assets/images/students/maya.jpeg
+    size: 100px
+
+  - title: Prem Kumar Yadav
+    subtitle: 2nd year, Computer Science/Math
+    image_path: /assets/images/students/prem.jpg
+    size: 100px
+
+yif_26_elm:
+  - title: Diya Tyagi
+    subtitle: Young India Fellow, 2025-2026
+    image_path: /assets/images/students/diya_tyagi.png
+    project: "Tracing Edible Narratives: Shadows and Blind Spots of Indian Agrifood Systems"
+    layout: thesis
+  
+  - title: Kuvethilu Thuluo
+    subtitle: Young India Fellow, 2025-2026
+    image_path: /assets/images/students/kuvethilu.png
+    project: "Tracing Edible Narratives: Shadows and Blind Spots of Indian Agrifood Systems"
+    layout: thesis
+
+  - title: Nasir Mamoon
+    subtitle: Young India Fellow, 2025-2026
+    image_path: /assets/images/students/nasir.jpeg
+    project: "Tracing Edible Narratives: Shadows and Blind Spots of Indian Agrifood Systems"
+    layout: thesis
+
+  - title: Pallavi Nair
+    subtitle: Young India Fellow, 2025-2026
+    image_path: /assets/images/students/pallavi.jpeg
+    project: "Tracing Edible Narratives: Shadows and Blind Spots of Indian Agrifood Systems"
+    layout: thesis
 
 
+summer26_nptel:
+  - title: Siddhesh Nadkarni
+    subtitle: ""
+    image_path: /assets/images/students/siddhesh_nadkarni.png
+    project: ""
+    layout: thesis
+  
+  - title: Somyadip Ghosh
+    subtitle: ""
+    image_path: /assets/images/students/somyadip_ghosh.png
+    project: ""
+    layout: thesis
+
+  - title: Tamanash Batabyal
+    subtitle: ""
+    image_path: /assets/images/students/tamanash_batabyal.jpeg
+    project: ""
+    layout: thesis
+  
+  - title: Aslesha SU
+    subtitle: ""
+    image_path: /assets/images/students/aslesha_su.jpeg
+    project: ""
+    layout: thesis
 
 spring26_thesis:
   - title: Arin Baswana
@@ -174,11 +330,18 @@ spring26_thesis:
     image_path: /assets/images/students/arin.jpeg
     layout: thesis
 
-monsoon25_spring26_interns:
-  - title: Aarush Kumbhakern
-    subtitle: 4th year, Computer Science
-    image_path: /assets/images/students/aarush.jpg
-    size: 100px
+monsoon25_spring26_nptel:
+  - title: Amit Mandlik
+    subtitle: 4th year, Computer Engineering, Amrutvahini College of Engineering, Sangamner
+    image_path: /assets/images/students/amit_mandlik.jpeg
+    project: "Creating a Nutrition database from labels of food packets - automation using VLMs"
+    layout: thesis
+  
+  - title: Priti Rathi
+    subtitle: 4th year, Computer Engineering, K. K. Wagh Institute of Engineering Education & Research, Nashik
+    image_path: /assets/images/students/priti_rathi.jpeg
+    project: "Creating a Nutrition database from labels of food packets - automation using VLMs"
+    layout: thesis
 
 monsoon25_capstone:
   - title: Arin Baswana
@@ -208,13 +371,19 @@ monsoon25_capstone:
   - title: Saransh Goel
     subtitle: 4th year, Computer Science
     image_path: /assets/images/students/saransh.png
-    project: "Web App for Knowledge Food Graph"
+    project: "Web App for Food Knowledge Graph"
     layout: thesis
   
   - title: Aarya Toshniwal
     subtitle: 4th year, Computer Science
     image_path: /assets/images/students/aarya.png
-    project: "Web App for Knowledge Food Graph"
+    project: "Web App for Food Knowledge Graph"
+    layout: thesis
+
+  - title: Vinayak Goswamy
+    subtitle: 4th year, Computer Science
+    image_path: /assets/images/students/vinayak_goswamy.png
+    project: "Rasoi AI: Ingredient Detection & Recipe Generation Pipeline"
     layout: thesis
 
 summer25_interns:
@@ -373,7 +542,7 @@ summer24_interns:
 
   - title: Fiona Arora
     subtitle: 4th year, Computer Science
-    image_path: /assets/images/students/stock.jpg
+    image_path: /assets/images/students/fiona_arora.jpeg
     size: 100px
 
   - title: Prisha Bajaj

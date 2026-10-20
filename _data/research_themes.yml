@@ -63,7 +63,7 @@ dietary_health:
 multimodal_food:
   - image_path: /assets/images/research/food_image.png
     title: "Indian Food Image Analysis"
-    subtitle: "Object detection, food classification, and calorie estimation for Indian cuisine"
+    subtitle: "Object detection, food classification, calorie estimation for Indian cuisine, visual food logging, and thali analysis"
     image_caption: "labellerr"
 
   - image_path: /assets/images/research/language_diversity.jpg
@@ -102,10 +102,10 @@ food_atlas:
     subtitle: "Mapping food sources, offerings, and availability across campus to support research, accessibility, and nutrition awareness"
     image_caption: "fcl@ashoka"
 
-  - image_path: /assets/images/research/beyond_fkg.png
-    title: "Applications Beyond the Knowledge Graph"
-    subtitle: "Leveraging FKG.in to explore and develop potential applications that build on top of the Knowledge Graph"
-    image_caption: "uci futurehealth"
+  - image_path: /assets/images/research/graph_maker.png
+    title: "Food Knowledge Graph Maker"
+    subtitle: "Collaborative and crowdsourced platform for building a living knowledge graph for Indian food"
+    image_caption: "alamy"
 
   - image_path: /assets/images/research/food_sources.png
     title: "Food Culture and Heritage"
@@ -116,6 +116,11 @@ food_atlas:
     title: "Mapping Indigenous Food Datasets"
     subtitle: "Curating the vast yet underrepresented, undocumented, and digitally low-resource Indian culinary knowledge to foster equitable and sustainable food systems"
     image_caption: "karya"
+
+  - image_path: /assets/images/research/beyond_fkg.png
+    title: "Beyond the Knowledge Graph"
+    subtitle: "Leveraging FKG.in to explore and develop potential applications that build on top of the Knowledge Graph"
+    image_caption: "uci futurehealth"
 
 food_systems:
   - image_path: /assets/images/research/agroecology.jpg
@@ -137,6 +142,11 @@ food_systems:
     title: "Food Claim Traceability Network"
     subtitle: "Mapping and evaluating nutritional, cultural, and marketing claims published about food across scientific, media and policy sources"
     image_caption: "sandboxproject"
+
+  - image_path: /assets/images/research/affordability.png
+    title: "Food & Nutritional Affordability"
+    subtitle: "Extending the food ontology and the knowledge graph towards market pricing, food  affordability, and Nutritional Cost Analysis"
+    image_caption: "pexels"
 
   - image_path: /assets/images/research/food_computing.png
     title: "Food Computing Applications"
@@ -168,3 +178,8 @@ knowledge_dissemination:
     title: "Mobile App Development"
     subtitle: "Designing and developing mobile applications that make food computing insights accessible to everyday users"
     image_caption: "unsplash"
+
+  - image_path: /assets/images/research/copilot.png
+    title: "FKG.in Exploration Research Copilot"
+    subtitle: "A no-SPARQL graph explorer that lets anyone visually explore and query the Indian food knowledge graph"
+    image_caption: "data.world"
