@@ -1,5 +1,5 @@
 - title: "What Constitutes Food Similarity? Visual Representations and Retrieval in Indian Cuisine"
-  year: 2025
+  year: 2026
   authors: "Saransh Kumar Gupta • Akshadha Sharma • Lipika Dey • Partha Pratim Das • Ramesh Jain"
   conference: "Asian Conference on Computer Vision (ACCV 2026): Multimodal AI for Dietary Intelligence, Management, and Assessment Workshop Proceedings (Osaka, Japan)"
   tags: ["ACCV", "MADIMA"]
@@ -127,7 +127,7 @@
 - title: "Building FKG.in: A Knowledge Graph for Indian Food"
   year: 2024
   authors: "Saransh Kumar Gupta • Lipika Dey • Partha Pratim Das • Ramesh Jain"
-  conference: "Formal Ontology in Information Systems (FOIS 2024): Integrated Food Ontology Workshop"
+  conference: "Formal Ontology in Information Systems (FOIS 2024): Integrated Food Ontology Workshop (Enschede, Netherlands)"
   tags:
     - "FOIS"
     - "IFOW"
