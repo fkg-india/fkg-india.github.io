@@ -1,3 +1,27 @@
+- title: "What Constitutes Food Similarity? Visual Representations and Retrieval in Indian Cuisine"
+  year: 2025
+  authors: "Saransh Kumar Gupta • Akshadha Sharma • Lipika Dey • Partha Pratim Das • Ramesh Jain"
+  conference: "Asian Conference on Computer Vision (ACCV 2026): Multimodal AI for Dietary Intelligence, Management, and Assessment Workshop Proceedings (Osaka, Japan)"
+  tags: ["ACCV", "MADIMA"]
+  primary_track:  multimodal_food
+  secondary_tracks:
+    - knowledge_graph
+  urls:
+    article: "https://arxiv.org/abs/2610.37867"
+    pdf: "https://arxiv.org/pdf/2610.37867"
+
+- title: "Validating FKG.in: Soundness Assessment in LLM-Augmented Indian Food Knowledge"
+  year: 2026
+  authors: "Saransh Kumar Gupta • Armaan Shah • Lipika Dey • Partha Pratim Das • Ramesh Jain"
+  conference: "Asian Conference on Computer Vision (ACCV 2026): Multimodal AI for Dietary Intelligence, Management, and Assessment Workshop Proceedings (Osaka, Japan)"
+  tags: ["ACCV", "MADIMA"]
+  primary_track:  knowledge_graph
+  secondary_tracks:
+    - multimodal_food
+  urls:
+    article: "https://arxiv.org/abs/2608.29249"
+    pdf: "https://arxiv.org/pdf/2608.29249"    
+
 - title: "LLM Driven Legal Text Analytics: A Case Study For Food Safety Violation Cases"
   year: 2025
   authors: "Suyog Joshi • Soumyajit Basu • Lipika Dey • Partha Pratim Das"
